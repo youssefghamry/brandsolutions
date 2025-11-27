@@ -1,0 +1,32 @@
+Admin
+email: admin@example.com
+password: 123456
+
+Customer
+email: customer@example.com
+password: 123456
+
+Delivery 
+email: deliveryboy@example.com
+password: 123456
+
+Manager
+email: branchmanager@example.com
+password: 123456
+
+Pos Operator
+email: posoperator@example.com
+password: 123456
+
+Kiosky 
+email: mirpur1
+password: 123456
+
+Chef/Kitchen
+email: chef@example.com
+password: 123456
+
+
+waiter
+email: waiter@example.com
+password: 123456

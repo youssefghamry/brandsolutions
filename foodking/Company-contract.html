@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عقد بيع نظام FoodKing - YG Brand Maker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            background-color: #f9f9f9;
+            margin: 20px;
+            color: #333;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .contract-container {
+            max-width: 700px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h3 {
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+        .section p, .section ul {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        ul {
+            padding-right: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        .success-message {
+            display: none;
+            color: #27ae60;
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .stamp {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            border: 2px solid #3498db;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        @media (max-width: 600px) {
+            .contract-container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contract-container">
+        <h2>عقد بيع نظام FoodKing بين العميل وشركة YG Brand Maker</h2>
+        <p style="text-align: center;">تم إعداد هذا العقد بتاريخ يوم ...... شهر ...... سنة ...... بين شركة YG Brand Maker، ممثلة بالمدير التنفيذي الأستاذ يوسف غمري، والعميل الموقّع أدناه.</p>
+
+        <!-- بيانات العميل -->
+        <div class="section">
+            <h3>بيانات العميل</h3>
+            <form id="contractForm">
+                <label for="clientName">اسم العميل:</label>
+                <input type="text" id="clientName" name="clientName" required>
+
+                <label for="clientPhone">رقم الهاتف:</label>
+                <input type="tel" id="clientPhone" name="clientPhone" pattern="[0-9]{10,15}" required>
+
+                <label for="clientEmail">البريد الإلكتروني:</label>
+                <input type="email" id="clientEmail" name="clientEmail" required>
+
+                <label for="businessName">اسم النشاط التجاري:</label>
+                <input type="text" id="businessName" name="businessName" required>
+            </form>
+        </div>
+
+        <!-- تفاصيل العقد -->
+        <div class="section">
+            <h3>تفاصيل العقد</h3>
+            <p>يتعهد العميل بشراء نظام FoodKing من شركة YG Brand Maker وفقًا للشروط التالية:</p>
+            <ul>
+                <li>اسم المنتج: نظام FoodKing.</li>
+                <li>إجمالي قيمة الخدمة: 25,750 جنيه مصري (دفع كامل).</li>
+                <li>خيارات الدفع المتاحة:
+                    <ul>
+                        <li>تحويل بنكي.</li>
+                        <li>فودافون كاش.</li>
+                        <li>WE Pay.</li>
+                        <li>فوري.</li>
+                        <li>كاش للفرع أو للمندوب.</li>
+                        <li>دفع إلكتروني عبر منصة معتمدة.</li>
+                    </ul>
+                </li>
+                <li>تاريخ الدفع: يتم سداد المبلغ الكامل عند توقيع العقد.</li>
+                <li>تاريخ تسليم النظام: خلال 30 يومًا من تاريخ توقيع العقد.</li>
+                <li>مدة سريان العقد: [يوم ...... شهر ...... سنة ......].</li>
+            </ul>
+        </div>
+
+        <!-- حقوق والتزامات الشركة -->
+        <div class="section">
+            <h3>حقوق والتزامات شركة YG Brand Maker</h3>
+            <ul>
+                <li>تقديم نظام FoodKing وفقًا للمواصفات المتفق عليها مع العميل.</li>
+                <li>توفير دعم فني مجاني لمدة سنة من تاريخ التسليم.</li>
+                <li>تسليم النظام خلال 30 يومًا من استلام المبلغ الكامل.</li>
+                <li>الحق في اتخاذ إجراءات قانونية في حال عدم الالتزام بشروط العقد من قبل العميل.</li>
+            </ul>
+        </div>
+
+        <!-- حقوق والتزامات العميل -->
+        <div class="section">
+            <h3>حقوق والتزامات العميل</h3>
+            <ul>
+                <li>سداد المبلغ الكامل (25,750 جنيه مصري) عند توقيع العقد باستخدام إحدى خيارات الدفع المتاحة.</li>
+                <li>تقديم بيانات دقيقة ومحدثة لتسهيل التواصل وعملية تسليم النظام.</li>
+                <li>الحق في طلب عرض توضيحي (ديمو) أو مكالمة زوم لفهم النظام قبل التسليم.</li>
+                <li>إبلاغ الشركة فورًا بأي تغييرات في بيانات التواصل أو النشاط التجاري.</li>
+            </ul>
+        </div>
+
+        <!-- شروط عامة -->
+        <div class="section">
+            <h3>شروط عامة</h3>
+            <ul>
+                <li>مدة سريان العقد: [يوم ...... شهر ...... سنة ......].</li>
+                <li>أي نزاع يتعلق بهذا العقد يُحل وديًا، وفي حال فشل ذلك، يتم اللجوء إلى المحاكم المختصة في القاهرة، جمهورية مصر العربية.</li>
+                <li>لا يجوز للعميل نقل حقوق أو التزامات هذا العقد إلى طرف ثالث دون موافقة خطية من شركة YG Brand Maker.</li>
+                <li>يحق للشركة تعديل مواصفات النظام بناءً على تحديثات تقنية مع إبلاغ العميل مسبقًا.</li>
+            </ul>
+        </div>
+
+        <!-- ختم الشركة -->
+        <div class="section">
+            <div class="stamp">
+                <p>ختم شركة YG Brand Maker الرسمي</p>
+                <p>ممثلة بالمدير التنفيذي: يوسف غمري</p>
+                <p>تاريخ الختم: يوم ...... شهر ...... سنة ......</p>
+            </div>
+        </div>
+
+        <!-- تأكيد التوقيع -->
+        <div class="section">
+            <h3>تأكيد التوقيع</h3>
+            <p>أقر أنا العميل بأنني قرأت وفهمت جميع بنود هذا العقد وأوافق عليها.</p>
+            <form id="signatureForm">
+                <label for="signature">توقيع العميل (اكتب اسمك):</label>
+                <input type="text" id="signature" name="signature" required>
+                <label for="signatureDate">تاريخ التوقيع:</label>
+                <input type="text" id="signatureDate" name="signatureDate" value="يوم ...... شهر ...... سنة ......" required>
+                <button type="submit">توقيع العقد</button>
+            </form>
+            <div id="successMessage" class="success-message">
+                تم توقيع العقد بنجاح! سيتم التواصل معك قريبًا لتأكيد تسليم النظام.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // معالجة توقيع العقد
+        document.getElementById('signatureForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // هنا يمكن إضافة منطق لإرسال بيانات العقد إلى خادم
+            document.getElementById('successMessage').style.display = 'block';
+            document.getElementById('contractForm').reset();
+            document.getElementById('signatureForm').reset();
+            setTimeout(() => {
+                document.getElementById('successMessage').style.display = 'none';
+            }, 3000);
+        });
+    </script>
+</body>
+</html>

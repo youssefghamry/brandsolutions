@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>FoodKing - نظام توصيل طعام للمطاعم مع لوحة تحكم وتطبيق توصيل | نقاط بيع للمطاعم</title>
+
+    <link rel="icon" href="assets/img/favicon/foodking.png" />
+    <link rel="stylesheet" href="assets/fonts/text/roboto.css">
+    <link rel="stylesheet" href="assets/lib/slickslider/slick.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/core.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    '../connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1332603774020887');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1332603774020887&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+	  <style>
+	  .whatsapp-icon {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 1000;
+        }
+
+        .whatsapp-icon img {
+            width: 60px;
+            height: 60px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .whatsapp-icon img:hover {
+            transform: scale(1.2); /* تأثير التكبير عند التمرير */
+        }
+
+        /* تأثير النبض */
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        /* إخفاء الأيقونة */
+        .hidden {
+            display: none;
+        }
+        .section-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+        .section-item {
+            padding: 1rem;
+            box-sizing: border-box;
+            margin-bottom: 2rem;
+        }
+        .ini-features {
+            list-style-type: disc;
+            padding-right: 20px;
+            margin-bottom: 20px;
+        }
+        .ini-features li {
+            margin-bottom: 10px;
+        }
+        @media (max-width: 768px) {
+            .section-container {
+                grid-template-columns: 1fr;
+            }
+        }
+        .hero.product-hero {
+            padding: 3rem 0;
+        }
+        .title.main-title {
+        }
+    
+    </style>
+
+</head>
+
+<body class="is-theme-core">
+    <div class="pageloader"></div>
+    <div class="infraloader is-active"></div>
+    <div id="backtotop"><a href="#"></a></div>
+
+    <!--===================================
+                HERO PART START         
+    =====================================-->
+    <div class="hero product-hero is-default is-bold" data-page-theme="night">
+        <nav class="navbar navbar-wrapper navbar-default navbar-fade is-transparent">
+            <div class="container">
+                <!-- Brand -->
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="index.html">
+                        <img src="assets/img/logo/foodking.png" alt="logo">
+                    </a>
+
+                    <!-- Responsive toggle -->
+                    <div class="custom-burger" data-target="">
+                        <a id="" class="responsive-btn" href="javascript:void(0);">
+                            <span class="menu-toggle">
+                                <span class="icon-box-toggle">
+                                    <span class="rotate">
+                                        <i class="icon-line-top"></i>
+                                        <i class="icon-line-center"></i>
+                                        <i class="icon-line-bottom"></i>
+                                    </span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                    <!-- /Responsive toggle -->
+                </div>
+
+                <!-- Navbar menu -->
+                <div class="navbar-menu">
+                    <!-- Navbar Start -->
+                    <div class="navbar-end">
+                        <a class="navbar-item is-slide" href="#admin-panel">لوحة الإدارة</a>
+                        <a class="navbar-item is-slide" href="#front-website">الموقع الأمامي</a>
+                        <a class="navbar-item is-slide" href="#user-app">تطبيق المستخدم</a>
+                        <a class="navbar-item is-slide" href="#delivery-app">تطبيق سائق التوصيل</a>
+                        <a class="navbar-item is-slide" href="#merchant-app">تطبيق التاجر</a>
+                        <a class="navbar-item is-slide" href="#kitchen-app">تطبيق المطبخ</a>
+                        <a class="navbar-item is-slide" href="#kiosk-app">تطبيق الكشك</a>
+						                        <a class="navbar-item is-slide" href="#login">اعتماد تسجيل الدخول</a>
+
+                    </div>
+                    <!-- Navbar end -->
+                
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero image -->
+        <div id="main-hero" class="hero-body">
+            <div class="container has-text-centered">
+                <div class="ini-hero-content">
+                    <div class="is-5 has-text-right">
+                        <h1 class="title main-title dark-text text-bold is-2 ini-banner-title">
+فودكينج - سستم شامل للمطاعم                        </h1>
+                        <h2 class="subtitle is-5 body-color ini-banner-descrip">
+                            تم تصميم برمجياتنا لتبسيط إدارة المطاعم وتسهيل حياة المستخدمين وأشخاص التوصيل. مع مجموعتنا الشاملة من الميزات، يمكنك تبسيط العمليات اليومية لمطعمك وتحسين أعمال مطعمك.
+                        </h2>
+                        <div class="ini-banner-btns">
+                            <a target="_blank" href="https://demo.foodking.dev/admin/dashboard" class="blue">لوحة الإدارة</a>
+                            <a target="_blank" href="https://demo.foodking.dev/home" class="orange">الموقع الأمامي</a>
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.inilabs.foodking" class="green">تطبيق المستخدم</a>
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.inilabs.foodking.delivery" class="purple">تطبيق شخص التوصيل</a>
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.inilabs.foodking.merchant" class="blue">تطبيق التاجر</a>
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.inilabs.foodking.kds" class="green">تطبيق المطبخ</a>
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.inilabs.foodking.kiosk" class="green">تطبيق الكشك</a>
+                        </div>
+                    </div>
+                    <div class="is-7">
+                        <figure class="image blob-figure">
+                            <img src="assets/img/hero/foodking.png" alt="بطل" />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===================================
+                HERO PART END         
+    =====================================-->
+
+    <!--===================================
+                ADMIN PANEL SECTION START         
+    =====================================-->
+    <div id="admin-panel" class="hero product-hero is-default is-bold" data-page-theme="night">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="ini-hero-content">
+                    <div class="is-5 has-text-right">
+                        <h1 class="title main-title dark-text text-bold is-2 ini-banner-title">
+                            لوحة الإدارة
+                        </h1>
+                        <h2 class="subtitle is-5 body-color ini-banner-descrip">
+                            لوحة الإدارة هي العمود الفقري لنظام FoodKing، حيث تمكّن أصحاب المطاعم من إدارة الطلبات، القوائم، المخزون، وبيانات العملاء. راقب التوصيل، واطلع على تحليلات فورية، وسهّل العمليات عبر فرع واحد أو عدة فروع.
+                   </h2>
+						 <ul class="ini-features">
+                            <li>إدارة شاملة للطلبات، القوائم، المخزون، وبيانات العملاء.</li>
+                            <li>متابعة حالة التوصيل في الوقت الفعلي مع خرائط مدمجة.</li>
+                            <li>تقارير تحليلية مفصلة لتحسين الأداء وزيادة المبيعات.</li>
+                            <li>إدارة متعددة الفروع مع دعم أدوار وأذونات غير محدودة.</li>
+                            <li>إعداد بوابات دفع متعددة وتكوين الإشعارات الفورية.</li>
+                            <li>دعم لغات متعددة لتلبية احتياجات الأسواق المختلفة.</li>
+                        </ul>
+                        <div class="ini-banner-btns">
+                            <a target="_blank" href="https://demo.foodking.dev/admin/dashboard" class="blue">استكشف لوحة الإدارة</a>
+                        </div>
+                    </div>
+                    <div class="is Latinos">
+                        <figure class="image blob-figure">
+                            <img src="assets/img/hero/admin.png" alt="لوحة الإدارة" />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===================================
+                ADMIN PANEL SECTION END         
+    =====================================-->
+
+    <!--===================================
+                FRONT WEBSITE SECTION START         
+    =====================================-->
+    <div id="front-website" class="hero product-hero is-default is-bold" data-page-theme="night">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="ini-hero-content">
+                    <div class="is-5 has-text-right">
+                        <h1 class="title main-title dark-text text-bold is-2 ini-banner-title">
+                            الموقع الأمامي
+                        </h1>
+                        <h2 class="subtitle is-5 body-color ini-banner-descrip">
+                            يوفر الموقع الأمامي واجهة سهلة الاستخدام للعملاء لتصفح القوائم، تقديم الطلبات، وتتبع التوصيل. مع تصميم متجاوب وإمكانية التخصيص، يعزز رضا العملاء وتفاعلهم.
+                        </h2>
+						 <ul class="ini-features">
+                            <li>تصميم متجاوب يعمل على جميع الأجهزة (هواتف، أجهزة لوحية، حواسيب).</li>
+                            <li>تتبع الطلبات في الوقت الفعلي مع تحديثات فورية.</li>
+                            <li>إمكانية تخصيص الواجهة لتعكس هوية المطعم (شعار، ألوان).</li>
+                            <li>دعم الكوبونات والعروض الترويجية لجذب العملاء.</li>
+                            <li>خيارات دفع متعددة بما في ذلك الدفع عند الاستلام.</li>
+                            <li>واجهة سهلة الاستخدام لتصفح القوائم وتقديم الطلبات بسرعة.</li>
+                        </ul>
+                        <div class="ini-banner-btns">
+                            <a target="_blank" href="https://demo.foodking.dev/home" class="orange">زيارة الموقع الأمامي</a>
+                        </div>
+                    </div>
+                    <div class="is-7">
+                        <figure class="image blob-figure">
+                            <img src="assets/img/hero/front-website.png" alt="الموقع الأمامي" />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===================================
+                FRONT WEBSITE SECTION END         
+    =====================================-->
+
+    <!--===================================
+                USER APP SECTION START         
+    =====================================-->
+    <div id="user-app" class="hero product-hero is-default is-bold" data-page-theme="night">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="ini-hero-content">
+                    <div class="is-5 has-text-right">
+                        <h1 class="title main-title dark-text text-bold is-2 ini-banner-title">
+                            تطبيق المستخدم
+                        </h1>
+                        <h2 class="subtitle is-5 body-color ini-banner-descrip">
+                            يتيح تطبيق المستخدم للعملاء تصفح القوائم، تقديم الطلبات، وتتبع التوصيل بسلاسة من أجهزتهم المحمولة. مع واجهة بسيطة وإشعارات فورية، يضمن تجربة طلب مريحة.
+                        </h2>
+						 <ul class="ini-features">
+                            <li>واجهة مستخدم بسيطة وسهلة التنقل لجميع الفئات.</li>
+                            <li>إشعارات فورية لتحديثات حالة الطلب.</li>
+                            <li>إمكانية البحث عن المطاعم بناءً على الموقع.</li>
+                            <li>دعم الطلبات المجدولة لتوصيل لاحق.</li>
+                            <li>تكامل مع بوابات دفع آمنة (PayPal، Stripe، إلخ).</li>
+                            <li>إدارة ملف العميل لتتبع الطلبات السابقة.</li>
+                        </ul>
+                        <div class="ini-banner-btns">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.inilabs.foodking" class="green">تحميل تطبيق المستخدم</a>
+                        </div>
+                    </div>
+                    <div class="is-7">
+                        <figure class="image blob-figure">
+                            <img src="assets/img/hero/user-app.png" alt="تطبيق المستخدم" />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===================================
+                USER APP SECTION END         
+    =====================================-->
+
+    <!--===================================
+                DELIVERY MAN APP SECTION START         
+    =====================================-->
+    <div id="delivery-app" class="hero product-hero is-default is-bold" data-page-theme="night">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="ini-hero-content">
+                    <div class="is-5 has-text-right">
+                        <h1 class="title main-title dark-text text-bold is-2 ini-banner-title">
+                            تطبيق سائق التوصيل
+                        </h1>
+                        <h2 class="subtitle is-5 body-color ini-banner-descrip">
+                            يمكّن تطبيق سائق التوصيل السائقين من إدارة الطلبات، تحسين مسارات التوصيل، وتحديث الحالات فوريًا. يضمن خدمات توصيل فعالة وموثوقة، مما يعزز ثقة العملاء.
+                        </h2>
+						  <ul class="ini-features">
+                            <li>إدارة الطلبات المعينة مع تفاصيل العميل والموقع.</li>
+                            <li>تحسين مسارات التوصيل باستخدام خرائط مدمجة.</li>
+                            <li>تحديث حالة الطلب فوريًا (تم الاستلام، في الطريق، تم التسليم).</li>
+                            <li>إشعارات فورية للطلبات الجديدة.</li>
+                            <li>إدارة الأرباح والتقارير اليومية للسائق.</li>
+                            <li>دعم لغات متعددة لواجهة السائق.</li>
+                        </ul>
+                        <div class="ini-banner-btns">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.inilabs.foodking.delivery" class="purple">تحميل تطبيق التوصيل</a>
+                        </div>
+                    </div>
+                    <div class="is-7">
+                        <figure class="image blob-figure">
+                            <img src="assets/img/hero/delivery-app.png" alt="تطبيق سائق التوصيل" />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===================================
+                DELIVERY MAN APP SECTION END         
+    =====================================-->
+
+    <!--===================================
+                MERCHANT APP SECTION START         
+    =====================================-->
+    <div id="merchant-app" class="hero product-hero is-default is-bold" data-page-theme="night">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="ini-hero-content">
+                    <div class="is-5 has-text-right">
+                        <h1 class="title main-title dark-text text-bold is-2 ini-banner-title">
+                            تطبيق التاجر
+                        </h1>
+                        <h2 class="subtitle is-5 body-color ini-banner-descrip">
+                            يتيح تطبيق التاجر لأصحاب المطاعم إدارة الطلبات، القوائم، والعروض الترويجية أثناء التنقل. راقب الأداء، تواصل مع العملاء، وتحكم في العمليات من أي مكان.
+                        </h2>
+						  <ul class="ini-features">
+                            <li>إدارة الطلبات الواردة والقوائم بسهولة.</li>
+                            <li>إنشاء وتعديل العروض الترويجية والكوبونات.</li>
+                            <li>متابعة الأداء عبر تقارير مبيعات فورية.</li>
+                            <li>إدارة المخزون وتحديث توفر المنتجات.</li>
+                            <li>دردشة مباشرة مع العملاء لحل المشكلات.</li>
+                            <li>دعم إعدادات متعددة الفروع من تطبيق واحد.</li>
+                        </ul>
+                        <div class="ini-banner-btns">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.inilabs.foodking.merchant" class="blue">تحميل تطبيق التاجر</a>
+                        </div>
+                    </div>
+                    <div class="is-7">
+                        <figure class="image blob-figure">
+                            <img src="assets/img/hero/merchant-app.png" alt="تطبيق التاجر" />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===================================
+                MERCHANT APP SECTION END         
+    =====================================-->
+
+    <!--===================================
+                KITCHEN APP SECTION START         
+    =====================================-->
+    <div id="kitchen-app" class="hero product-hero is-default is-bold" data-page-theme="night">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="ini-hero-content">
+                    <div class="is-5 has-text-right">
+                        <h1 class="title main-title dark-text text-bold is-2 ini-banner-title">
+                            تطبيق المطبخ
+                        </h1>
+                        <h2 class="subtitle is-5 body-color ini-banner-descrip">
+                            يسهل تطبيق المطبخ تحضير الطلبات بعرض الطلبات الواردة وتتبع تقدمها. يقلل الأخطاء، يسرع الخدمة، ويضمن عمليات مطبخ سلسة.
+                        </h2>
+						  <ul class="ini-features">
+                            <li>عرض الطلبات الواردة مع تفاصيل المنتجات والإضافات.</li>
+                            <li>تتبع تقدم التحضير (قيد التحضير، جاهز، تم التسليم).</li>
+                            <li>تقليل الأخطاء من خلال واجهة واضحة ومنظمة.</li>
+                            <li>إشعارات فورية للطلبات الجديدة أو التعديلات.</li>
+                            <li>تكامل مع تطبيق التاجر لتحديثات سلسة.</li>
+                            <li>دعم شاشات كبيرة لتسهيل الرؤية في المطبخ.</li>
+                        </ul>
+                        <div class="ini-banner-btns">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.inilabs.foodking.kds" class="green">تحميل تطبيق المطبخ</a>
+                        </div>
+                    </div>
+                    <div class="is-7">
+                        <figure class="image blob-figure">
+                            <img src="assets/img/hero/kitchen-app.png" alt="تطبيق المطبخ" />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===================================
+                KITCHEN APP SECTION END         
+    =====================================-->
+
+    <!--===================================
+                KIOSK APP SECTION START         
+    =====================================-->
+    <div id="kiosk-app" class="hero product-hero is-default is-bold" data-page-theme="night">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="ini-hero-content">
+                    <div class="is-5 has-text-right">
+                        <h1 class="title main-title dark-text text-bold is-2 ini-banner-title">
+                            تطبيق الكشك
+                        </h1>
+                        <h2 class="subtitle is-5 body-color ini-banner-descrip">
+                            يوفر تطبيق الكشك محطة خدمة ذاتية للعملاء داخل المطعم لتصفح القوائم وتقديم الطلبات. يقلل وقت الانتظار، يتكامل مع نظام نقاط البيع، ويعزز الكفاءة التشغيلية.
+                        </h2>
+						   <ul class="ini-features">
+                            <li>واجهة سهلة لتصفح القوائم واختيار المنتجات.</li>
+                            <li>دعم الدفع الإلكتروني والدفع عند الاستلام.</li>
+                            <li>تقليل وقت الانتظار من خلال الطلب الذاتي.</li>
+                            <li>تكامل مع نظام نقاط البيع لإدارة الطلبات.</li>
+                            <li>إمكانية تخصيص الواجهة بألوان وشعار المطعم.</li>
+                            <li>دعم متعدد اللغات لخدمة عملاء متنوعين.</li>
+                        </ul>
+                        <div class="ini-banner-btns">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.inilabs.foodking.kiosk" class="green">تحميل تطبيق الكشك</a>
+                        </div>
+                    </div>
+                    <div class="is-7">
+                        <figure class="image blob-figure">
+                            <img src="assets/img/hero/kiosk-app.png" alt="تطبيق الكشك" />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===================================
+                KIOSK APP SECTION END         
+    =====================================-->
+
+    <!--===================================
+                ABOUT PART START         
+    =====================================-->
+    <div id="about" class="section is-medium has-background-image is-cover" data-background="assets/img/shapes/circles-square.png" style="background-image: url('assets/img/shapes/circles-square.png')">
+        <div class="container">
+            <div class="is-vcentered">
+                <div class="is-5">
+                    <h2 class="title main-title dark-text text-bold is-3 mb-6">حول مطعم FoodKing</h2>
+                    <h3 class="subtitle is-5 body-color line-base ini-about-descrip">
+                        يقدم نظام FoodKing لإدارة المطاعم وتوصيل الطعام مجموعة واسعة من الميزات، بما في ذلك الطلب عبر الإنترنت، إدارة المخزون، نقاط البيع، جدولة الطلبات، إدارة علاقات العملاء، وتتبع التوصيل.
+                        <span>FoodKing هو تطبيق صفحة واحدة (SPA) ويعتمد بالكامل على نموذج API. يوفر الموقع موردًا شاملًا للعملاء الراغبين في معرفة المزيد عن سلسلة المطاعم، قوائمها، والعروض الترويجية. الموقع سهل التصفح ويوفر ثروة من المعلومات، مما يجعله موردًا قيمًا لعملائك.</span>
+                        <span>بشكل عام، يمكنك اختيار FoodKing لميزاته الشاملة، واجهته سهلة الاستخدام، خيارات التخصيص، وسهولة الوصول.</span>
+                    </h3>
+                </div>
+                <div class="is-7">
+                    <img src="assets/img/about/foodking.png" alt="حول" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===================================
+                ABOUT PART END         
+    =====================================-->
+        
+    <!--===================================
+                FEATURE PART START         
+    =====================================-->
+    <div id="features" class="section is-medium section-feature-grey">
+        <div class="container">
+            <h2 class="title main-title dark-text text-bold is-3 mb-6 has-text-centered">وحدات لأتمتة تطبيق FoodKing</h2>
+            <nav class="ini-feature-navs -3">
+                <a href="#" class="dark-text"><i class="sl sl-icon-layers color-primary"></i><span>خيارات فروع متعددة</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-lock-open color-primary"></i><span>أدوار وأذونات غير محدودة</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-puzzle color-primary"></i><span>نقاط بيع المطاعم</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-note color-primary"></i><span>نظام جدولة الطلبات</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-speedometer color-primary"></i><span>رسوم التوصيل حسب المسافة</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-location color-primary"></i><span>خيارات البحث عن الموقع</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-bag color-primary"></i><span>نظام التوصيل للمنازل والاستلام</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-credit-card color-primary"></i><span>نظام دفع سهل</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-tag color-primary"></i><span>وظيفة الكوبونات والقسائم</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-user-following color-primary"></i><span>إضافة سائقي التوصيل حسب الفرع</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-feed color-primary"></i><span>تتبع الطلبات والتأكيد</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-bubbles color-primary"></i><span>دردشة العملاء ومديري الفروع</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-basket-loaded color-primary"></i><span>تغييرات المنتجات والإضافات</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-map color-primary"></i><span>دعم لغات متعددة</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-wallet color-primary"></i><span>بوابات دفع متعددة</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-paper-plane color-primary"></i><span>نقاط البيع والطلبات عبر الإنترنت</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-flag color-primary"></i><span>أداة بناء صفحات غير محدودة</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-bubble color-primary"></i><span>إشعارات فورية</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-rocket color-primary"></i><span>تحليلات الكوكيز والشبكات الاجتماعية</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-grid color-primary"></i><span>لوحة إدارة قوية</span></a>
+                <a href="#" class="dark-text"><i class="sl sl-icon-chart color-primary"></i><span>تقارير وتحليلات غنية</span></a>
+            </nav>
+        </div>
+    </div>
+    <!--===================================
+                FEATURE PART END         
+    =====================================-->
+<div id="login" class="section is-medium section-feature-grey">
+    <div class="container">
+        <h2 class="title main-title dark-text text-bold is-3 mb-6 has-text-centered">بيانات تسجيل الدخول لتجربة نظام FoodKing</h2>
+        <div class="columns is-multiline is-variable is-6">
+            <div class="column is-one-third">
+                <div class="box has-text-centered">
+                    <strong>Admin</strong><br>
+                    email: admin@example.com<br>
+                    password: 123456
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="box has-text-centered">
+                    <strong>Customer</strong><br>
+                    email: customer@example.com<br>
+                    password: 123456
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="box has-text-centered">
+                    <strong>Delivery</strong><br>
+                    email: deliveryboy@example.com<br>
+                    password: 123456
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="box has-text-centered">
+                    <strong>Manager</strong><br>
+                    email: branchmanager@example.com<br>
+                    password: 123456
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="box has-text-centered">
+                    <strong>POS Operator</strong><br>
+                    email: posoperator@example.com<br>
+                    password: 123456
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="box has-text-centered">
+                    <strong>Kiosky</strong><br>
+                    email: mirpur1<br>
+                    password: 123456
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="box has-text-centered">
+                    <strong>Chef / Kitchen</strong><br>
+                    email: chef@example.com<br>
+                    password: 123456
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="box has-text-centered">
+                    <strong>Waiter</strong><br>
+                    email: waiter@example.com<br>
+                    password: 123456
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--===================================
+                GATEWAY PART START
+    =====================================-->
+    <div id="getaways">
+        <div id="payment" class="section is-medium">
+            <div class="container">
+                <h2 class="title main-title has-text-centered dark-text text-bold">بوابات الدفع</h2>
+                <nav class="ini-logos-nav">
+                    <img src="assets/img/payments/paypal.png" alt="paypal">
+                    <img src="assets/img/payments/stripe.png" alt="stripe">
+                    <img src="assets/img/payments/paystack.png" alt="paystack">
+                    <img src="assets/img/payments/bkash.png" alt="bkash">
+                    <img src="assets/img/payments/cashfree.png" alt="cashfree">
+                    <img src="assets/img/payments/flutterwave.png" alt="flutterwave">
+                    <img src="assets/img/payments/mercadopago.png" alt="mercado pago">
+                    <img src="assets/img/payments/mollie.png" alt="mollie">
+                    <img src="assets/img/payments/paytm.png" alt="paytm">
+                    <img src="assets/img/payments/razorpay.png" alt="razorpay">
+                    <img src="assets/img/payments/senangpay.png" alt="senangpay">
+                    <img src="assets/img/payments/sslcommerz.png" alt="ssl commerz">
+                </nav>
+            </div>
+        </div>
+        <div id="sms" class="section is-small mb-80">
+            <div class="container">
+                <h2 class="title main-title has-text-centered dark-text text-bold">بوابات الرسائل القصيرة</h2>
+                <nav class="ini-logos-nav">
+                    <img src="assets/img/sms/01.png" alt="twilio">
+                    <img src="assets/img/sms/nexmo.png" alt="nexmo">
+                    <img src="assets/img/sms/msg91.png" alt="msg91">
+                    <img src="assets/img/sms/clickatell.png" alt="clickatell">
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--===================================
+                GATEWAY PART END
+    =====================================-->
+<a href="https://wa.me/201030459067?text=مساء%20الخير%20أنا%20أريد%20شراء%20نظام%20Foodking" target="_blank" class="whatsapp-icon" id="whatsappBtn">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="pulse">
+    </a>
+
+    <script>
+        // الوصول إلى عنصر الأيقونة
+        const whatsappBtn = document.getElementById('whatsappBtn');
+
+        // إضافة حدث النقر
+        whatsappBtn.addEventListener('click', (event) => {
+            // منع السلوك الافتراضي مؤقتًا
+            event.preventDefault();
+
+            // إظهار تنبيه قبل فتح الواتساب
+            const confirmOpen = confirm('هل تريد التواصل عبر واتساب لشراء نظام Foodking؟');
+            if (confirmOpen) {
+                // فتح رابط الواتساب
+                window.open(whatsappBtn.href, '_blank');
+            }
+        });
+
+        // إخفاء/إظهار الأيقونة بناءً على التمرير (اختياري)
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) { // إظهار الأيقونة بعد التمرير لأسفل
+                whatsappBtn.classList.remove('hidden');
+            } else {
+                whatsappBtn.classList.add('hidden');
+            }
+        });
+    </script>
+    <!--===================================
+                INSTALL PART START         
+    =====================================-->
+   
+    <script src="assets/lib/jquery.min.js"></script>
+    <script src="assets/lib/slickslider/slick.min.js"></script>
+    <script src="assets/lib/slickslider/slick.init.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/core.js"></script>
+</body>
+</html>
