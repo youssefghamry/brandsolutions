@@ -1,0 +1,6 @@
+(function($,elementor){$(window).on("elementor/frontend/init",function(){elementorFrontend.hooks.addAction("frontend/element_ready/sixam-felxible-delivery-animation.default",function($scope){if($(window).innerWidth()>=992){const tabFunction=(index)=>{var tab=$('.delivery-options-wrapper')
+$('.left-menu-item').removeClass('active');$('.left-menu-item:eq('+index+')').addClass('active');tab.find('.tab-area').find('.tab-item').not('.tab-item:eq('+index+')').slideUp(300);tab.find('.tab-area').find('.tab-item:eq('+index+')').slideDown(300)}
+let tabItemCount=5
+let currentIndex=1;let intervalId=setInterval(()=>{tabFunction(currentIndex);currentIndex=(currentIndex+1)%tabItemCount;$('.left-menu-item').on('mouseover',function(){if($(this).hasClass('active')){clearInterval(intervalId)}})},5000);$('.delivery-options-wrapper .left-tab-menu .left-menu-item').on('click',function(g){clearInterval(intervalId);currentIndex=$(this).index()
+tabFunction(currentIndex)})}else{const isRTL=$('body').hasClass('rtl');$('.tab-area').slick({dots:!0,adaptiveHeight:!0,rtl:isRTL})}})})})(jQuery,window.elementorFrontend)
+;

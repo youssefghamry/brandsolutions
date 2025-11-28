@@ -1,0 +1,9 @@
+(function($,elementor){$(window).on("elementor/frontend/init",function(){elementorFrontend.hooks.addAction("frontend/element_ready/sixam-tab-faq.default",function($scope){var shouldTriggerScroll=!0;$('.tab-faq-wrapper a._tab_item').click(function(e){e.preventDefault();$('.tab-faq-wrapper a._tab_item').removeClass('active');$(this).addClass('active');shouldTriggerScroll=!1;var target_element=$(this).attr('href');$("html, body").animate({scrollTop:$(target_element).offset().top-0},300);setTimeout(function(){shouldTriggerScroll=!0},1000)})
+function get_pos(target){const tabOffset=$(target).offset();const tabPos=tabOffset.top;const scrollPos=$('html').scrollTop()||$('body').scrollTop();const my_tab_pos=tabPos-scrollPos;return my_tab_pos}
+var last_scroll_pos=0;$(window).scroll(function(){var scrollTop=$(window).scrollTop();if(shouldTriggerScroll){$('.tab-faq-wrapper a._tab_item').each(function(){var anchor=$(this);var target=$(anchor.attr('href'));if(get_pos(target)<100){$('.tab-faq-wrapper a._tab_item').removeClass('active');anchor.addClass('active')}else{anchor.removeClass('active')}
+if(!$('.tab-faq-wrapper a._tab_item').hasClass('active')){$('.tab-faq-wrapper a._tab_item[href="#general-0"]').addClass('active')}})}
+if($(window).width()<=767){var targetId='.tab-faq-wrapper a._tab_item.active';var targetOffset=$(targetId).offset().left;if(targetOffset>270||targetOffset<0){$('.tab-faq-wrapper .tab-list').animate({scrollLeft:targetOffset},300)}}
+var currentScroll=$(this).scrollTop();var my_tab_pos=get_pos('.tab-faq-wrapper .tabs-container');if(my_tab_pos<1){$('.tab-faq-wrapper .tabs-container').addClass('fixed')}
+if($('.accordions-list').hasClass('has_tabs')){var my_pos=get_pos('.accordions-list.has_tabs .first_acc');if(currentScroll<last_scroll_pos&&my_pos>-120&&my_pos<20){$('.tab-faq-wrapper .tabs-container').removeClass('fixed')}}
+last_scroll_pos=currentScroll})})})})(jQuery,window.elementorFrontend)
+;

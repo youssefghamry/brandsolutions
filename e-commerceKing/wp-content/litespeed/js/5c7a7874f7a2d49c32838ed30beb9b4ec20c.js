@@ -1,0 +1,19 @@
+(function($,elementor){$(window).on("elementor/frontend/init",function(){elementorFrontend.hooks.addAction("frontend/element_ready/sixam-tab.default",function($scope){$('.template_one_tab_wrapper .sec_edit_container').find('a').click(function(e){e.preventDefault();var url=$(this).attr('href');window.open(url,'_blank')});$(document).ready(function(){$('.dynamic_tab_wrapper ul > li:first-of-type a.tab_link_item').addClass('active');$('.dynamic_tab_wrapper a.tab_link_item').click(function(event){event.preventDefault();const el=$(this);let parent_el=$(this).closest('.elementor-element').attr('data-id');$('.elementor-element[data-id="'+parent_el+'"] .dynamic_tab_wrapper a.tab_link_item').removeClass('active');var targetClassValue=this.getAttribute('href').split('#')[1]+'_section';$(this).addClass('active');$('#'+targetClassValue).siblings().removeClass('active');$('#'+targetClassValue).addClass(' active ');var targetId='.elementor-element[data-id="'+parent_el+'"] .dynamic_tab_wrapper li a.tab_link_item.active';var targetOffset=$(targetId).offset().left;var loop_gap=600;if(!$scope.hasClass('no_scroll')){if($(window).width()<768){loop_gap=220}
+if($(window).width()<1024){loop_gap=225;if((targetOffset-loop_gap)<50){loop_gap=loop_gap+50}
+if(targetOffset>loop_gap&&targetOffset>0){$('.elementor-element[data-id="'+parent_el+'"] .dynamic_tab_wrapper .tabs-items>ul').animate({scrollLeft:(targetOffset+100)},300)}
+if(targetOffset<loop_gap&&targetOffset>0){$('.elementor-element[data-id="'+parent_el+'"] .dynamic_tab_wrapper .tabs-items>ul').animate({scrollLeft:100},300)}
+if(targetOffset<0){$('.elementor-element[data-id="'+parent_el+'"] .dynamic_tab_wrapper .tabs-items>ul').animate({scrollLeft:-10},300)}}}});$('#default_demo_seller_app .sixam-icon-box-btn > a').click(function(event){event.preventDefault();$("#default_seller_app_demo_modal").fadeIn()})
+$('#default_demo_user_app .sixam-icon-box-btn > a').click(function(event){event.preventDefault();$("#default_user_app_demo_modal").fadeIn()})
+$('#default_demo_deriveryman_app .sixam-icon-box-btn > a').click(function(event){event.preventDefault();$("#default_deliveryman_app_demo_modal").fadeIn()})
+$('#aster_demo_seller_app .sixam-icon-box-btn > a').click(function(event){event.preventDefault();$("#aster_seller_app_demo_modal").fadeIn()})
+$('#aster_demo_user_app .sixam-icon-box-btn > a').click(function(event){event.preventDefault();$("#aster_user_app_demo_modal").fadeIn()})
+$('#aster_demo_deriveryman_app .sixam-icon-box-btn > a').click(function(event){event.preventDefault();$("#aster_deliveryman_app_demo_modal").fadeIn()})
+$('#lifestyle_demo_seller_app .sixam-icon-box-btn > a').click(function(event){event.preventDefault();$("#lifestyle_seller_app_demo_modal").fadeIn()})
+$('#lifestyle_demo_user_app .sixam-icon-box-btn > a').click(function(event){event.preventDefault();$("#lifestyle_user_app_demo_modal").fadeIn()})
+$('#lifestyle_demo_deriveryman_app .sixam-icon-box-btn > a').click(function(event){event.preventDefault();$("#lifestyle_deliveryman_app_demo_modal").fadeIn()})
+$('#react_demo_seller_app .sixam-icon-box-btn > a').click(function(event){event.preventDefault();$("#react_seller_app_demo_modal").fadeIn()})
+$('#react_demo_user_app .sixam-icon-box-btn > a').click(function(event){event.preventDefault();$("#react_user_app_demo_modal").fadeIn()})
+$('#react_demo_deriveryman_app .sixam-icon-box-btn > a').click(function(event){event.preventDefault();$("#react_deliveryman_app_demo_modal").fadeIn()})
+$('.close_form').click(function(event){event.preventDefault();$(".demo_modal").fadeOut()})
+$('.close_form').focusout(function(){$(".demo_modal").fadeOut()})})})})})(jQuery,window.elementorFrontend)
+;

@@ -1,0 +1,7 @@
+Get-ChildItem -Recurse -File | Where-Object { $_.Name -like "*6Valley*" } |
+ForEach-Object {
+    Write-Host "Old: $($_.Name)"
+    $newName = $_.Name -replace "6Valley", "e-commerceKing"
+    Write-Host "New: $newName"
+    Rename-Item $_.FullName $newName
+}

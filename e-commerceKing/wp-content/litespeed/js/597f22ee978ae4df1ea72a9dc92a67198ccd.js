@@ -1,0 +1,3 @@
+(function($,elementor){$(window).on("elementor/frontend/init",function(){elementorFrontend.hooks.addAction("frontend/element_ready/sixam-icon-box-slider.default",function($scope){var rtl_class=!1;if($('.icon-box-slider-wrapper .box-item').hasClass('rtl')){rtl_class=!0;$('.icon-box-slider-wrapper.rtl').find('.icon-box-slider').slick({infinite:!0,speed:800,autoplay:!0,autoplaySpeed:3000,slidesToShow:1,slidesToScroll:1,arrows:!1,dots:!1,rtl:!0,})}
+$('.icon-box-slider-wrapper.ltr').find('.icon-box-slider').slick({infinite:!0,speed:800,autoplay:!0,autoplaySpeed:3000,slidesToShow:1,slidesToScroll:1,arrows:!1,dots:!1,})})})})(jQuery,window.elementorFrontend)
+;
