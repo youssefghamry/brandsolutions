@@ -1,0 +1,196 @@
+.sct_countdown_wrapper {
+  display: none;
+}
+
+.sct_countdown_wrapper .timer_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sct_countdown_wrapper .timer_style.square_timer_label_out {
+  gap: 0px;
+}
+
+.sct_countdown_wrapper .timer_style.square_timer {
+  gap: 10px;
+}
+
+/* Square Style */
+.sct_countdown_wrapper .timer_style.square_timer .count {
+  width: 62px;
+  padding: 5px;
+  display: flex;
+  gap: 0;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.60);
+  background: #fff;
+}
+
+.sct_countdown_wrapper .timer_style.square_timer .digit {
+  color: #4D1F87;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.sct_countdown_wrapper .timer_style.square_timer .label {
+  color: #4D1F87;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.4px;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .sct_countdown_wrapper .timer_style.square_timer {
+    gap: 8px;
+  }
+
+  .sct_countdown_wrapper .timer_style.square_timer .count {
+    padding: 4px;
+    width: 46px;
+    border-radius: 8px !important;
+  }
+
+  .sct_countdown_wrapper .timer_style.square_timer .digit {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .sct_countdown_wrapper .timer_style.square_timer .label {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .sct_countdown_wrapper .timer_style.square_timer {
+    gap: 5px;
+  }
+
+  .sct_countdown_wrapper .timer_style.square_timer .count {
+    padding: 4px;
+    border-radius: 4px;
+    width: 32px;
+  }
+
+  .sct_countdown_wrapper .timer_style.square_timer .digit {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .sct_countdown_wrapper .timer_style.square_timer .label {
+    font-size: 8px;
+    line-height: 8px;
+  }
+}
+
+/* Square Label Out Style */
+.sct_countdown_wrapper .timer_style.square_timer_label_out .count {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* border-radius: 3px; */
+  background: url(../shapes/hexa-shape.png) no-repeat center center/cover;
+}
+
+/* Radiul Style */
+.sct_countdown_wrapper .timer_style.radiul_timer .count {
+  border: 1px solid grey;
+  padding: 20px 24px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+
+.sct_countdown_wrapper .timer_style.square_timer_label_out .label {
+  color: #FFF;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sct_countdown_wrapper .timer_style.square_timer_label_out .digit {
+  color: #FF7E23;
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1024px) {
+  .sct_countdown_wrapper .timer_style.square_timer_label_out .count {
+    padding: 10px 5px;
+    background-size: 76px;
+    margin-bottom: -8px;
+  }
+
+  .sct_countdown_wrapper .timer_style.square_timer_label_out .label {
+    font-size: 12px;
+  }
+
+  .sct_countdown_wrapper .timer_style.square_timer_label_out .digit {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 14px 20px 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sct_countdown_wrapper .timer_style.square_timer_label_out .count {
+    padding: 10px 0px;
+    background-size: 60px;
+    margin-bottom: -12px;
+  }
+
+  .sct_countdown_wrapper .timer_style .label {
+    font-size: 10px;
+  }
+
+  .sct_countdown_wrapper .timer_style.square_timer_label_out .digit {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 10px 20px 7px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sct_countdown_wrapper .timer_style.square_timer_label_out .count {
+    padding: 3px 0;
+    background-size: 40px;
+    margin-bottom: -12px;
+  }
+
+  .sct_countdown_wrapper .timer_style.square_timer_label_out .label {
+    font-size: 8px;
+    letter-spacing: 0.4px;
+  }
+
+  .sct_countdown_wrapper .timer_style.square_timer_label_out .digit {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 8px 10px 5px;
+  }
+}

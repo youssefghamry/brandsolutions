@@ -1,0 +1,4 @@
+(function($,elementor){$(window).on("elementor/frontend/init",function(){elementorFrontend.hooks.addAction("frontend/element_ready/sixam-ticker.default",function($scope){$(document).ready(function(){var tickerSlider=new Swiper(".swiper-container",{autoplay:{delay:0,pauseOnMouseEnter:!1,disableOnInteraction:!1,},allowTouchMove:!1,loop:!0,speed:4500,slidesPerView:"auto",slidesPerGroup:1,direction:"horizontal",spaceBetween:0,});$scope.find(".ltr-btn").click(function(){if(tickerSlider.params.autoplay.reverseDirection){return}
+tickerSlider.params.autoplay.reverseDirection=!0;tickerSlider.slideToLoop(0);tickerSlider.update()});$scope.find(".rtl-btn").click(function(){if(!tickerSlider.params.autoplay.reverseDirection){return}
+tickerSlider.params.autoplay.reverseDirection=!1;tickerSlider.slideToLoop(0);tickerSlider.update()})})})})})(jQuery,window.elementorFrontend)
+;

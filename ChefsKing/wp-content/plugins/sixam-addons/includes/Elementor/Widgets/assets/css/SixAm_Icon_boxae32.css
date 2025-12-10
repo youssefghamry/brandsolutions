@@ -1,0 +1,59 @@
+.sixam-icon-box-wrapper .sixam-icon svg{
+    height: 100% !important;
+}
+
+@media(min-width:768px){
+    .sixam-icon-box-wrapper.left{
+        display: flex;
+        align-items: center;
+    }
+
+    .sixam-icon-box-wrapper.left .sixam-icon svg{
+        display: block;
+        margin: auto 0px;
+    }
+}
+
+@media(min-width:768px){
+    .sixam-icon-box-wrapper.right{
+        display: flex;
+        align-items: center;
+    }
+    .sixam-icon-box-wrapper.right .sixam-icon svg{
+        display: block;
+        margin: auto 0px
+    }
+    
+    .sixam-icon-box-wrapper.right .sixam-icon-box-icon{
+        margin: auto 0px;
+        order: 2;
+    }
+}
+
+@media(max-width:767px){
+    .sixam-icon-box-wrapper{
+        display: block;
+        align-items: center;
+    }
+    .sixam-icon-box-wrapper .sixam-icon-box-icon{
+        display: inline-block;
+        margin: auto;
+    }
+}
+
+.sixam-icon-box-icon.stacked{
+    background-color: rgba(0, 174, 255, 0.959);
+}
+
+.sixam-icon-box-icon.framed{
+    border: 2px solid;
+    border-color: rgba(0, 174, 255, 0.959);
+}
+
+.sixam-icon-box-icon.circle{
+    border-radius: 50%;
+}
+
+.sixam-icon-box-icon.square{
+    border-radius: 0px;
+}

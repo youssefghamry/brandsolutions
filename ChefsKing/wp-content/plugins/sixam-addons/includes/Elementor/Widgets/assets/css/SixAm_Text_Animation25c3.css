@@ -1,0 +1,68 @@
+.color-animation {
+  position: relative;
+  font-weight: 800 !important;
+  color: royalblue;
+  overflow: hidden;
+}
+
+.color-animation{
+  background: linear-gradient(to right, #2486F2, #2486F2 50%, #1A2E35 50%);
+	background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  font-weight: 800 !important;
+  transition: background-position .9s ease;
+}
+
+
+.ma .color-animation.animate{
+	  background-position: 0 100%;
+}
+
+.sf .color-animation{
+  background: linear-gradient(to right, #FF5722, #fd5c2c 50%, #1A2E35 50%);
+	background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  font-weight: 800 !important;
+  transition: background-position .9s ease;
+}
+.sf .color-animation.animate{
+	  background-position: 0 100%;
+}
+
+.ma .color-animation.animate{
+	  background-position: 0 100%;
+}
+
+.ma .color-animation{
+  background: linear-gradient(to right, #0FB768, #039D55 50%, #1A2E35 50%);
+	background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  font-weight: 800 !important;
+  transition: background-position .9s ease;
+}
+.ma .color-animation.animate{
+	  background-position: 0 100%;
+}
+
+.ma.white_text .color-animation{
+  background: linear-gradient(to right, #02B461, #039D55 50%, #ffffff 50%);
+	background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  font-weight: 800 !important;
+  transition: background-position .9s ease;
+}
+.ma.white_text .color-animation.animate{
+	  background-position: 0 100%;
+}

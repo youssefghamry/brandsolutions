@@ -1,0 +1,69 @@
+; (function ($, elementor) {
+
+    $(window).on("elementor/frontend/init", function () {
+
+        elementorFrontend.hooks.addAction(
+            "frontend/element_ready/sixam-on-scroll-add-class.default",
+            function ($scope) {
+
+                var trigger = $('.scrol-top-add-class-wrapper .trigger').attr('id');
+                var target = $('.scrol-top-add-class-wrapper .target').attr('id');
+                var custom_class = $('.scrol-top-add-class-wrapper .custom_class').attr('id');
+                var end_point = $('.scrol-top-add-class-wrapper .end_trigger').attr('id');
+                var lastScroll = 0;
+								
+				if(typeof trigger == 'undefined' || !trigger || trigger == null) {
+                    return;
+                }
+
+                if(typeof target == 'undefined' || !target || target == null) {
+                    return;                
+                }
+
+
+                $(window).scroll(function () {
+                    const elementOffset = $(trigger).offset();
+					
+                    const verticalPosition = elementOffset.top;
+                    const scrollPosition = $('html').scrollTop() || $('body').scrollTop();
+                    const my_pos = scrollPosition - verticalPosition;
+
+                    if (typeof end_point !== 'undefined' || end_point !== 'undefined' || end_point !== null) {
+                        var endPointElementOffset = $(end_point).offset();
+
+                        if (typeof endPointElementOffset !== 'undefined') {
+                            var endPointVerticalPosition = endPointElementOffset.top;
+                            var endPoint_pos = scrollPosition - endPointVerticalPosition;
+                        }
+                    }
+					
+									console.log(my_pos);
+
+
+                    if (my_pos > 0) {
+                        $(target).addClass(custom_class);
+
+                        if (typeof endPoint_pos !== 'undefined' && endPoint_pos > 0) {
+                            $(target + '  .fixed_col').slideUp();
+                            $(target).slideUp();
+                        } else {
+                            $(target + '  .fixed_col').slideDown();
+                            $(target).slideDown()
+                        }
+                    } else {
+                        $(target).removeClass(custom_class);
+                    }
+                });
+
+                $(document).ready(function () {
+                    $('.sa_data_table_container').scroll(function () {
+                        var scrollPosition = $(this).scrollLeft();
+
+                        $('.scroll_table.fixed').scrollLeft(scrollPosition);
+                    });
+                });
+            }
+        );
+    });
+
+})(jQuery, window.elementorFrontend);
