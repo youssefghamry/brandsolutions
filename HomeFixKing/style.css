@@ -10,3 +10,7 @@ section.elementor-section.elementor-inner-section.elementor-element.elementor-el
 .cky-consent-container.cky-banner-bottom {
     display: none;
 }
+
+.elementor-5241 .elementor-element.elementor-element-f9d878f .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+    display: none;
+}

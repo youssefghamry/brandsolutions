@@ -1,7 +1,7 @@
 import os
 
-old_word = "Demandium"
-new_word = "brandsolutions"
+old_word = "brandsolutions"
+new_word = "HomeFixKing"
 
 # ضع هنا مسار المجلد الرئيسي اللي فيه كل الملفات
 root_folder = r"."
