@@ -1,0 +1,1424 @@
+/* *********************************************Ecom Responsive css Start ********************************************* */
+
+@media(max-width:1199px) {
+    .blog-text {
+        width: 53.9%;
+    }
+    .hr-box {
+        bottom: -200px;
+    }
+    .aboutuspage .mission-box .four-box .analyze {
+        top: 35%;
+    }
+    .aboutuspage .mission-box {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    p.para-title {
+        font-size: 16px !important;
+    }
+    .aboutuspage .about-page p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .aboutuspage .pain-points .hedding {
+        margin-bottom: 30px;
+    }
+    .aboutuspage .pain-points .point li {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .aboutuspage .needs-text p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .services-page .servicescontent .listbox ul li {
+        margin: 0 7px;
+    }
+    .services-page .servicescontent .odprocess .devprobox h3 {
+        font-size: 14px;
+        width: 54%;
+    }
+    .contactpage .achievements .good-firms-box p {
+        font-size: 26px !important;
+    }
+    .contactpage .contact-form {
+        padding-bottom: 360px;
+    }
+    .contactpage .contact-form .hr-box {
+        bottom: -279px;
+    }
+    .contactpage .box-mail .inner-box-mail .contact-details {
+        padding: 15px 10px;
+        font-size: 16px;
+    }
+    .contactpage .box-mail .inner-box-mail .contact-details a {
+        font-size: 15px;
+    }
+    .contactpage .office-branch .office-branch-box {
+        padding: 10px;
+        margin-bottom: 0;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .ubermenu-main .ubermenu-item-level-0>.ubermenu-target {
+        font-size: 14px !important;
+        padding-left: 4px !important;
+    }
+    .banner-hedding h1 {
+        font-size: 53px;
+        letter-spacing: 0;
+    }
+    .section-1 {
+        padding-top: 40px;
+    }
+    .dom-box ul li {
+        width: 19.4%;
+    }
+    .request-box {
+        width: 51.5%;
+    }
+    .navigation {
+        width: 46%;
+    }
+    .services-page .servicescontent .phpserbox ul li {
+        width: 18%;
+    }
+    .casestudaypage .aboutdetail .usedtechnolog li {
+        margin: 0 30px;
+    }
+    .casestudaypage .aboutdetail .listofkey .iconlist ul li {
+        width: 33%;
+    }
+    .workpagenew .allworkport .worklist ul li {
+        width: 32.6%;
+    }
+    .offerpage .offerdatail .solutionbg .worklist ul li {
+        width: 32.6%;
+    }
+    .lawpage .banner .bannercontent span a {
+        width: 270px;
+        margin: 10px 10px;
+    }
+    .lawpage .lawdetail .lawbox {
+        min-height: 240px;
+    }
+    #slide_pop_custom {
+        top: 111px;
+    }
+    .portfoliopagenew .aboutdetail .content h2,
+    .portfoliopagenew .aboutdetail .showcase h3,
+    .portfoliopagenew .aboutdetail .solutionbg .heading h3,
+    .portfoliopagenew .aboutdetail .ourservices .heading h4 {
+        font-size: 40px;
+    }
+    .magento_seo_page .real_client .rightbox {
+        width: 50%;
+        padding: 15px 15px;
+    }
+    .magento_seo_page .real_client .leftbox {
+        width: 50%;
+    }
+    .magento_seo_page .real_client .rightbox .content p {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .magento_seo_page .real_client .rightbox .content h5,
+    .magento_seo_page .real_client .rightbox .content span {
+        margin-bottom: 5px;
+    }
+    .magento_seo_page .art_content_box .semple_content .pragr ul li {
+        width: 47.5%;
+        min-height: 325px;
+        float: left;
+    }
+    .magento_seo_page .mss_section ul li {
+        padding: 60px 50px;
+    }
+    .services-page .bannerhire img {
+        height: 500px;
+    }
+    .home_new_slider #Home_slider .item .slider_content .content h1 {
+        font-size: 42px;
+    }
+    .home_new_slider #Home_slider .item .slider_content .content span {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .home_new_slider #Home_slider .item .slider_content .content {
+        padding-top: 50px;
+    }
+}
+
+@media(max-width:991px) {
+    .home_new_slider #Home_slider .item .slider_content .container .row .col-md-12.img_md_top {
+        order: 1;
+    }
+    .home_new_slider #Home_slider .item .slider_content .container .row .col-md-12.text_md_bottom {
+        order: 2;
+    }
+    .home_new_slider #Home_slider .item .slider_content .container .row .col-md-12.img_md_top .img_box img {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    .home_new_slider #Home_slider .item .slider_content .content {
+        padding-top: 30px;
+    }
+    .home_new_slider {
+        height: 100%;
+        text-align: center;
+    }
+    #header .logo-menu .rowonmenu .ubermenu ul li.custom_ecom_menu>a {
+        color: #040000 !important;
+    }
+    #header .logo-menu .rowonmenu button.ubermenu-responsive-toggle {
+        color: #fff !important;
+    }
+    #header.navbar-shrink .logo-menu .rowonmenu button.ubermenu-responsive-toggle {
+        color: #000 !important;
+    }
+    .services-page .bannerhire .banner_content {
+        top: 0;
+        left: 0;
+        background: #07044b;
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+    }
+    .overlay-hedding {
+        width: 309px;
+    }
+    .section-1 .upbox {
+        order: 2;
+        margin-top: 80px;
+    }
+    .section-1 .dobox {
+        order: 1;
+    }
+    .service-li-box .nav-tabs .nav-item a {
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .service-panel-box .tab-pane .tab-box-1 .nav-tabs a {
+        font-size: 13px;
+        font-weight: 300;
+        padding: 0 7px;
+    }
+    .service-panel-box .tab-text-box {
+        background: #fff;
+        padding: 20px 10px;
+    }
+    .service-panel-box .tab-text-box h4 {
+        font-size: 20px;
+    }
+    .service-panel-box .tab-text-box p {
+        font-size: 14px;
+    }
+    .service-panel-box .tab-text-box a {
+        width: 250px;
+    }
+    .case-text-box h3 {
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .review {
+        margin-bottom: 0;
+    }
+    .review-btn-box {
+        margin-bottom: 90px;
+    }
+    .review-box {
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    .review-box .review-profile-img {
+        background: transparent;
+        width: 100%;
+        left: 0;
+    }
+    .review-box .review-profile-img img {
+        width: 56px;
+        margin: 0 auto;
+        display: block;
+    }
+    .blog-text {
+        width: 100%;
+    }
+    .img-box {
+        width: 100%;
+        margin-right: 0;
+    }
+    .img-box img {
+        width: 100%;
+    }
+    .dom-box ul li .domain-text {
+        font-size: 15px;
+    }
+    .footer-form .ecom-form-bar-l-wrapper .icon-box label {
+        padding-left: 25px;
+        font-size: 14px;
+    }
+    .footer-form .ecom-form-bar-l-wrapper .icon-box label a {
+        font-size: 13px;
+    }
+    .footer-form .ecom-form-bar-l-wrapper .icon-box-cell p {
+        padding-left: 25px;
+        font-size: 15px;
+    }
+    .footer-box-3 .footer-copyright .footer-social {
+        text-align: center;
+        margin: 10px 0;
+    }
+    .mission-box .four-box .box-1 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .business-needs .needs-box {
+        margin-bottom: 100px;
+    }
+    .business-needs .needs-box img {
+        width: 100%;
+    }
+    .team .team-box img {
+        width: 100%;
+    }
+    .prosess .prosess-box .prosess-text p {
+        font-size: 18px;
+    }
+    .enquiry-text a {
+        padding: 10px 19px;
+    }
+    .about-review-text-bottom {
+        font-size: 19px;
+    }
+    .post-meta .post-title-alt {
+        font-size: 20px;
+        max-width: 100%;
+    }
+    .blog-page .post-categories li {
+        display: inline-block;
+    }
+    .blog-hedding h4 {
+        font-size: 24px;
+    }
+    .blog-page .right-sidebar {
+        padding-left: 0px;
+    }
+    .blog-page .right-sidebar .inner .the-wrap img {
+        width: 70%;
+    }
+    .blog-detail-text .right-sidebar .inner ul li .ema {
+        width: 70%;
+    }
+    .news-box .news-box-inner .post-thumb {
+        max-width: 100%;
+    }
+    .news-box .news-box-inner .content {
+        padding-left: 0;
+        width: 100%;
+    }
+    .news-box .news-box-inner .content .post-meta .post-title {
+        max-width: 100%;
+    }
+    .case-blog-box .case-blog-box-text {
+        padding: 10px;
+    }
+    #mailpoet_form_1 input.mailpoet_text {
+        width: 223px;
+    }
+    .services-page .servicescontent .listbox {
+        margin-top: 0px;
+    }
+    .services-page .servicescontent .listbox h2 {
+        font-size: 25px;
+    }
+    .services-page .servicescontent .listbox ul li {
+        width: 31%;
+        margin: 7px 8px;
+    }
+    .services-page .servicescontent .odprocess .heading h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .services-page .servicescontent .whybackclo .whybox h3 {
+        font-size: 26px;
+    }
+    .services-page .servicescontent .whybackclo .whybox ul li {
+        width: 49%;
+    }
+    .services-page .servicescontent .phpserbox h3 {
+        font-size: 25px;
+    }
+    .services-page .servicescontent .phpserbox ul li {
+        width: 30%;
+        margin: 9px 8px;
+    }
+    .services-page .servicescontent .whybackclobeni img {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+    .services-page .servicescontent .faqbackclo .faqcontent .heading h5 {
+        font-size: 25px;
+    }
+    .services-page .servicescontent .contenthr h2 {
+        font-size: 25px;
+    }
+    .contactpage .achievements .good-firms-box {
+        padding: 15px;
+    }
+    .contactpage .box-mail .inner-box-mail .icon {
+        padding: 10px 10px;
+    }
+    .contactpage .box-mail .inner-box-mail .contact-details {
+        padding: 15px 10px;
+        font-size: 12px;
+    }
+    .contactpage .box-mail .inner-box-mail .contact-details a {
+        font-weight: 400;
+        font-size: 11px;
+    }
+    .aboutuspage .mission-box .four-box .box-1:nth-child(1),
+    .aboutuspage .mission-box .four-box .box-1:nth-child(2) {
+        padding-bottom: 60px;
+        padding-top: 50px;
+    }
+    .aboutuspage .mission-box .four-box .box-1:nth-child(3),
+    .aboutuspage .mission-box .four-box .box-1:nth-child(4) {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+    .aboutuspage .mission-box .four-box {
+        margin-bottom: -30px;
+        margin-top: -30px;
+    }
+    .aboutuspage .mission-box .four-box .analyze {
+        top: 32%;
+    }
+    .aboutuspage .business-needs {
+        margin-bottom: 0px;
+    }
+    .business-needs .needs-box {
+        margin-bottom: 50px;
+    }
+    .aboutuspage .prosess .prosess-box {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+    .blog-page #mailpoet_form_1 input.mailpoet_text {
+        margin-right: 0px;
+    }
+    .blog-page .case-stud-blog .row .col-md-6 {
+        margin-bottom: 30px;
+    }
+    .menubanner {
+        display: none;
+    }
+    .ubermenu-skin-black-white-2.ubermenu-responsive-toggle {
+        background: transparent !important;
+        color: #000 !important;
+        font-size: 15px !important;
+        border: none !important;
+        box-shadow: none !important;
+        text-align: right;
+        position: relative;
+        z-index: 99999999999;
+        width: 16%;
+        margin-left: auto;
+    }
+    .top-nav ul li:first-child {
+        display: none;
+    }
+    .logo-menu .logo {
+        width: 28%;
+    }
+    .menu {
+        width: 72%;
+        position: relative;
+        top: 8px;
+    }
+    .navigation {
+        width: 10%;
+        position: relative;
+        top: 10px;
+        z-index: 999999;
+    }
+    .request-box {
+        width: 89.5%;
+        z-index: 99999999;
+        top: -15px;
+        left: -100px;
+    }
+    .com-info-inquiry-dd {
+        right: -90px;
+    }
+    .com-info-inquiry:after {
+        right: 96px;
+    }
+    .request-box .modal .modal-dialog {
+        margin-top: 8%;
+        max-width: 350px;
+        margin-right: 0;
+        z-index: 999999999;
+        position: fixed;
+        margin-left: auto;
+        right: 0;
+    }
+    .logo-menu .rowonmenu nav {
+        position: relative;
+        background: #fff;
+        width: 100%;
+        top: 24px;
+    }
+    .ubermenu-main .ubermenu-item-level-0>.ubermenu-target {
+        color: #000 !important;
+    }
+    .logo-menu .rowonmenu nav ul li ul .ubermenu-item-5191,
+    .logo-menu .rowonmenu nav ul li ul .ubermenu-item-5048,
+    .logo-menu .rowonmenu nav ul li ul .ubermenu-item-5195,
+    .logo-menu .rowonmenu nav ul li ul .ubermenu-item-5049,
+    .menu-item-5124-col-2,
+    .menu-item-5125-col-2,
+    .menu-item-5134-col-2,
+    .menu-item-5135-col-2,
+    .menu-item-5136-col-2,
+    .menu-item-5015-col-2,
+    .menu-item-5018-col-2 {
+        display: none !important;
+    }
+    .logo-menu .rowonmenu nav ul li ul .ubermenu-item-5047,
+    .menu-item-5124-col-0,
+    .menu-item-5124-col-1,
+    .menu-item-5134-col-0,
+    .menu-item-5135-col-0,
+    .menu-item-5136-col-0,
+    .menu-item-5015-col-0,
+    .menu-item-5018-col-0 {
+        width: 100% !important;
+    }
+    .ubermenu-responsive-default.ubermenu-responsive .ubermenu-item-level-0 {
+        width: 100% !important;
+    }
+    .ubermenu-tab-content-panel {
+        height: 300px !important;
+        overflow-y: auto !important;
+    }
+    .portfoliopagenew .bannerhire .bannerheading {
+        top: 130px;
+    }
+    .portfoliopagenew .aboutdetail .content h1 {
+        font-size: 38px;
+    }
+    .portfoliopagenew .aboutdetail .showcase h1 {
+        font-size: 38px;
+    }
+    .portfoliopagenew .aboutdetail .solutionbg .heading h1 {
+        font-size: 38px;
+    }
+    .portfoliopagenew .aboutdetail .ourservices .heading h1 {
+        font-size: 38px;
+    }
+    .casestudaypage .aboutdetail .usedtechnolog li {
+        margin: 0 10px;
+        width: 30%;
+        margin-bottom: 30px;
+    }
+    .casestudaypage .aboutdetail .listofkey .iconlist ul li {
+        width: 32.7%;
+        float: left;
+        min-height: 200px;
+        margin: 4px 2px;
+    }
+    .testimonialpage .textmocl ul li {
+        width: 47%;
+        height: 475px;
+    }
+    .workpagenew .allworkport .worklist ul li {
+        width: 49%;
+    }
+    .workpagenew .sliderwork #wslork .item .box .hoverbox .banntext {
+        bottom: 50px;
+    }
+    .offerpage .offerdatail .offertabes .nav-tabs .nav-item .nav-link {
+        padding: 10px 20px;
+    }
+    .offerpage .offerdatail .offertabes .tab-content .content ul li {
+        width: 100%;
+    }
+    .offerpage .offerdatail .solutionbg .worklist ul li {
+        width: 49%;
+    }
+    .lawpage .lawdetail .lawbox {
+        min-height: 220px;
+    }
+    .topbar span a {
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .topbar span {
+        color: #fff;
+        font-size: 14px;
+    }
+    #slide_pop_custom {
+        top: 143px;
+    }
+    .portfoliopagenew .aboutdetail .content h2,
+    .portfoliopagenew .aboutdetail .showcase h3,
+    .portfoliopagenew .aboutdetail .solutionbg .heading h3,
+    .portfoliopagenew .aboutdetail .ourservices .heading h4 {
+        font-size: 30px;
+    }
+    .magento_seo_page .real_client .leftbox {
+        width: 100%;
+    }
+    .magento_seo_page .real_client .rightbox {
+        width: 100%;
+        padding: 35px 15px;
+    }
+    .magento_seo_page .art_content_box .semple_content .pragr ul li {
+        width: 47%;
+        min-height: 381px;
+    }
+    .magento_seo_page .mss_section ul li {
+        width: 50%;
+        border-top: 2px solid #fff;
+    }
+    .magento_seo_page .mss_section ul li:nth-child(2) {
+        border-right: 0px solid #fff;
+    }
+    .magento_seo_page .mss_section ul li:last-child {
+        width: 50%;
+        border-top: 2px solid #fff;
+    }
+    .magento_seo_page .mss_section ul li:last-child {
+        border-top: 2px solid #fff;
+        border-right: 0px solid #fff;
+    }
+    .e_learing_page .fratures_section .fear_products_list ul li .left_box .products_image img {
+        width: 80%;
+    }
+    .banner-box {
+        display: none;
+    }
+}
+
+@media(max-width:767px) {
+    .topbar span a {
+        margin-left: 18px;
+        font-size: 16px;
+    }
+    #slide_pop_custom {
+        top: 125px;
+    }
+    .logo-menu .rowonmenu {
+        top: 30px;
+    }
+    #header .logo-menu .logo a #Layer_1 {
+        width: 160px;
+    }
+    .banner-hedding {
+        margin-top: 160px;
+        width: 100%;
+    }
+    #header .banner-hedding h1 {
+        font-size: 37px;
+    }
+    #header .banner-hedding h2 {
+        font-size: 16px;
+    }
+    #header .banner-hedding p {
+        font-size: 12px;
+        font-weight: 200;
+        line-height: 24px;
+    }
+    .service .service-panel-box .tab-content .tab-content {
+        margin-top: 50px;
+    }
+    .case-text-box {
+        margin-top: 50px;
+    }
+    .blog-img {
+        margin-bottom: 30px;
+    }
+    .dom-box ul li {
+        width: 24.4%;
+    }
+    .footer-box-3 .footer-copyright .footer-logo ul li {
+        margin-right: 15px;
+    }
+    .hedding h2 {
+        font-size: 24px;
+    }
+    .aboutuspage .mission-box {
+        background: -moz-linear-gradient(left, #1e5799 100%, #f4f6f7 100%);
+        background: -webkit-linear-gradient(left, #1e5799 100%, #f4f6f7 100%);
+        background: linear-gradient(to right, #1e5799 100%, #f4f6f7 100%);
+    }
+    .aboutuspage .mission-box .four-box {
+        margin-bottom: 0px;
+        margin-top: 20px;
+        background: #fff;
+    }
+    .aboutuspage .mission-box .four-box .box-1 {
+        border-bottom: 0px solid #ededed;
+        border-right: 0px solid #ededed;
+        margin-bottom: 0;
+    }
+    .aboutuspage .prosess .prosess-box {
+        margin-bottom: 30px;
+    }
+    .aboutuspage .prosess {
+        padding-bottom: 30px;
+    }
+    .review-box-video {
+        margin-bottom: 100px;
+    }
+    .aboutuspage .mission-box .four-box .analyze {
+        height: 135px;
+        width: 135px;
+        top: 43%;
+        padding-top: 14px;
+    }
+    .blog-banner {
+        height: 550px;
+    }
+    .blog-slider .carousel-inner .second-slide.active {
+        height: 550px;
+    }
+    .boxes .cta-box {
+        margin-bottom: 30px;
+    }
+    .blog-page .right-sidebar .inner .the-wrap img {
+        width: 100%;
+    }
+    .blog-detail-text .right-sidebar .inner ul li .ema {
+        width: 100%;
+    }
+    .case-blog-box {
+        height: auto;
+        margin-bottom: 30px;
+    }
+    #mailpoet_form_1 input.mailpoet_text {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .services-page .bannerhire .banner_content .bannerheading h1 {
+        font-size: 62px;
+    }
+    .services-page .servicescontent .listbox ul li {
+        width: 30%;
+    }
+    .services-page .servicescontent .phpserbox ul li {
+        margin: 8px 6px;
+    }
+    .services-page .servicescontent .keybenifet h4 {
+        font-size: 24px;
+    }
+    .hire-page .hirecontent .listbox ul li {
+        width: 43%;
+    }
+    .hire-page .happyclient .clibox {
+        margin-bottom: 30px;
+    }
+    .contactpage .achievements .good-firms-box {
+        padding: 20px;
+        min-height: auto;
+        margin-bottom: 30px;
+    }
+    .contactpage .footer-form .ecom-form-bar-l-wrapper {
+        border: none;
+    }
+    .contactpage .box-mail .inner-box-mail {
+        margin-bottom: 15px;
+    }
+    .contactpage .box-mail {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    .contactpage .box-mail .inner-box-mail .contact-details {
+        padding: 15px 10px;
+        font-size: 17px;
+    }
+    .contactpage .box-mail .inner-box-mail .contact-details a {
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .contactpage .contact-form {
+        padding-top: 80px;
+    }
+    .blog-page #mailpoet_form_1 input.mailpoet_text {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .navigation {
+        width: 20%;
+        display: none;
+    }
+    .request-box {
+        width: 100%;
+        padding-left: 30px;
+    }
+    .request-box .butten {
+        margin-top: 0px;
+    }
+    .request-box .butten:last-child {
+        margin-right: 0;
+    }
+    .request-box .butten:last-child a {
+        width: 100px;
+    }
+    .request-box .butten a {
+        width: 150px;
+        font-size: 13px;
+        letter-spacing: 0px;
+    }
+    .ubermenu-skin-black-white-2.ubermenu-responsive-toggle {
+        width: 17%;
+        padding: 0 !important;
+    }
+    .request-box .modal .modal-dialog {
+        margin-top: 15%;
+    }
+    .play-butten {
+        width: 0%;
+    }
+    .dom-box ul li {
+        width: 33%;
+    }
+    .portfoliopagenew .bannerhire .bannerheading {
+        top: -70px;
+    }
+    .portfoliopagenew .aboutdetail .content h1 {
+        font-size: 28px;
+    }
+    .portfoliopagenew .aboutdetail .showcase h1 {
+        font-size: 28px;
+    }
+    .portfoliopagenew .aboutdetail .solutionbg .heading h1 {
+        font-size: 28px;
+    }
+    .portfoliopagenew .aboutdetail .ourservices .heading h1 {
+        font-size: 28px;
+    }
+    .portfoliopagenew .aboutdetail .solutionbg .sbox {
+        margin-bottom: 30px;
+    }
+    .portfoliopagenew .aboutdetail .ourservices ul li {
+        width: 100%;
+    }
+    .casestudaypage .aboutdetail .teamworktimeline .heading h1,
+    .casestudaypage .aboutdetail .finalresult .headinga h1,
+    .casestudaypage .aboutdetail .finalresult .headingb h1,
+    .casestudaypage .aboutdetail .brttogether .heading h1,
+    .casestudaypage .aboutdetail .designcompact .heading h1,
+    .casestudaypage .aboutdetail .listofkey .heading h1,
+    .casestudaypage .aboutdetail .prototype h1,
+    .casestudaypage .aboutdetail .usedtechnolog h1,
+    .casestudaypage .aboutdetail .showcase h1,
+    .casestudaypage .aboutdetail .content h1 {
+        font-size: 34px;
+    }
+    .casestudaypage .aboutdetail .finalresult .headinga h1::before,
+    .casestudaypage .aboutdetail .finalresult .headinga h1::after {
+        width: 200px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .casestudaypage .aboutdetail .finalresult .headingb h1::before,
+    .casestudaypage .aboutdetail .finalresult .headingb h1::after {
+        width: 314px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .casestudaypage .aboutdetail .teamworktimeline .heading h1::before,
+    .casestudaypage .aboutdetail .teamworktimeline .heading h1::after {
+        width: 400px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .casestudaypage .aboutdetail .brttogether .heading h1::before,
+    .casestudaypage .aboutdetail .brttogether .heading h1::after {
+        width: 352px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .casestudaypage .aboutdetail .designcompact .heading h1::before,
+    .casestudaypage .aboutdetail .designcompact .heading h1::after {
+        width: 411px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .casestudaypage .aboutdetail .listofkey .heading h1::before,
+    .casestudaypage .aboutdetail .listofkey .heading h1::after {
+        width: 341px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .casestudaypage .aboutdetail .prototype h1::before,
+    .casestudaypage .aboutdetail .prototype h1::after {
+        width: 205px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .casestudaypage .aboutdetail .usedtechnolog h1::before,
+    .casestudaypage .aboutdetail .usedtechnolog h1::after {
+        width: 325px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .casestudaypage .aboutdetail .showcase h1::before,
+    .casestudaypage .aboutdetail .showcase h1::after {
+        width: 191px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .casestudaypage .aboutdetail .content h1::before,
+    .casestudaypage .aboutdetail .content h1::after {
+        width: 251px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .casestudaypage .aboutdetail .brttogether .box {
+        margin-bottom: 30px;
+    }
+    .casestudaypage .aboutdetail .usedtechnolog li {
+        width: 29%;
+    }
+    .casestudaypage .aboutdetail .listofkey .iconlist ul li {
+        width: 32.5%;
+    }
+    .casestudaypage .aboutdetail .teamworktimeline .projecttimeline .pm2 {
+        width: 30%;
+    }
+    .casestudaypage .aboutdetail .teamworktimeline .projecttimeline .pm3 {
+        width: 45%;
+    }
+    .casestudaypage .aboutdetail .teamworktimeline .projecttimeline .pm4 {
+        width: 27%;
+    }
+    .casestudaypage .aboutdetail .teamworktimeline .projecttimeline .pm5 {
+        width: 30%;
+    }
+    .casestudaypage .aboutdetail .teamworktimeline .projecttimeline .pm6 {
+        width: 25%;
+    }
+    .casestudaypage .aboutdetail .finalresult .fresult {
+        margin-bottom: 30px;
+    }
+    .footer-box-3 .footer-menu ul li a {
+        font-size: 11.6px;
+    }
+    p.footer-head {
+        font-size: 14px;
+    }
+    .testimonialpage .textmocl ul li {
+        width: 46%;
+        height: 460px;
+    }
+    .workpagenew .allworkport .worklist ul li {
+        width: 100%;
+    }
+    .section-1 {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+    .case-studies .case-img-box .contenttext {
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .case-studies .case-img-box .contenttext h3 {
+        color: #fff;
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+    .review-box-video {
+        margin-bottom: 40px;
+    }
+    .section-1 .hedding {
+        margin-bottom: 20px;
+    }
+    .review {
+        margin-bottom: 30px;
+        padding-bottom: 0;
+    }
+    .offerpage .bannerhire .bannerheading {
+        position: relative;
+        top: 0;
+        margin-bottom: 60px;
+    }
+    .offerpage .offerdatail .offertabes .nav-tabs .nav-item .nav-link {
+        padding: 10px 13px;
+        font-size: 14px;
+    }
+    .lawpage .banner .bannercontent h1 {
+        font-size: 27px;
+        line-height: 45px;
+    }
+    .lawpage .banner .bannercontent span a {
+        width: 230px;
+        margin: 10px 5px;
+        font-size: 13px;
+    }
+    .lawpage .lawdetail .content h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .lawpage .lawdetail .lawbox {
+        min-height: auto;
+    }
+    .portfoliopagenew .aboutdetail .content h2,
+    .portfoliopagenew .aboutdetail .showcase h3,
+    .portfoliopagenew .aboutdetail .solutionbg .heading h3,
+    .portfoliopagenew .aboutdetail .ourservices .heading h4 {
+        font-size: 24px;
+    }
+    .magento_seo_page .bannerdown .bannericonimg {
+        bottom: 50px;
+    }
+    .magento_seo_page .bannerdown p {
+        text-align: center;
+    }
+    .magento_seo_page .art_content_box .semple_content .pragr ul li {
+        width: 100%;
+        min-height: auto;
+    }
+    .custom_case_study .case_study_slider .slide-wrapper {
+        display: none;
+    }
+    .custom_case_study .case_study_slider #Home_case_slide {
+        display: block;
+    }
+    .custom_case_study .case_study_slider #Home_case_slide .item .right_box {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .custom_case_study .case_study_slider #Home_case_slide .item .left_box {
+        width: 100%;
+        padding: 70px 30px 100px 0px;
+    }
+    .custom_case_study::before {
+        width: 100%;
+        height: 62%;
+    }
+}
+
+@media(max-width:575px) {
+    #slide_pop_custom .col-md-5 {
+        padding-left: 0;
+        order: 2;
+    }
+    #slide_pop_custom .form_content {
+        padding: 60px 20px 40px 20px;
+    }
+    #slide_pop_custom #close_btn {
+        right: -15px;
+        top: 0px;
+    }
+    #slide_pop_custom {
+        top: 70px;
+    }
+    .topbar {
+        display: none;
+    }
+    .topbar span {
+        color: #fff;
+        font-size: 16px;
+    }
+    .mobileopnshow {
+        display: block !important;
+    }
+    .hr-box {
+        width: 290px;
+        padding: 20px 10px 0px 10px;
+        bottom: -170px;
+    }
+    .hr-box h6 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    .hr-img {
+        width: 80px;
+        margin-right: 10px;
+    }
+    .hr-email a {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .service-li-box .nav-tabs .nav-item a .tab-iocn {
+        width: 45px;
+    }
+    .service-li-box .nav-tabs .nav-item a {
+        font-size: 0px;
+        font-weight: 300;
+        height: 80px;
+        padding: 10px 0;
+    }
+    .blog-banner .overlay {
+        padding: 0px;
+        margin-top: 10%;
+    }
+    .carousel-control-prev {
+        left: 5px;
+    }
+    .carousel-control-next {
+        right: 5px;
+    }
+    .blog-banner .overlay .post-title {
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+    .blog-banner {
+        height: 450px;
+    }
+    .blog-slider .carousel-inner .second-slide.active {
+        height: 450px;
+    }
+    .services-page .bannerhire .banner_content .bannerheading h1 {
+        font-size: 34px;
+    }
+    .services-page .bannerhire .banner_content a {
+        font-size: 14px;
+        padding: 10px 30px;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .services-page .servicescontent .listbox ul li {
+        width: 46%;
+        margin: 5px 5px;
+    }
+    .services-page .servicescontent .whybackclo .whybox ul li {
+        width: 100%;
+    }
+    .services-page .servicescontent .whybackclo .whybox ul {
+        margin-left: 15px;
+    }
+    .services-page .servicescontent .phpserbox ul li {
+        width: 46%;
+    }
+    .hire-page .hirecontent .listbox h2 {
+        font-size: 26px;
+    }
+    .hire-page .bannerhire .bannerheading h1 {
+        font-size: 36px;
+    }
+    .hire-page .bannerhire {
+        padding: 130px 0;
+    }
+    .contactpage .badcamp-box .badcamp {
+        margin-bottom: 50px;
+    }
+    .contactpage .contact-banner h1 {
+        font-size: 33px;
+        line-height: 44px;
+    }
+    .contactpage .contact-banner a {
+        width: 140px;
+        font-size: 14px;
+    }
+    .contactpage .ml-25 {
+        margin-left: 5px;
+    }
+    .contactpage .hired-text h2 {
+        font-size: 35px;
+    }
+    .contactpage .hired-text p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .contactpage .footer-form .ecom-form-bar-l-wrapper {
+        border: none;
+        margin-bottom: 40px;
+    }
+    .blog-page #mailpoet_form_1 {
+        display: block;
+    }
+    .blog-page .subscribe-inner .fields {
+        float: none;
+    }
+    .navigation {
+        display: none;
+    }
+    .request-box .request_btn_css {
+        display: none;
+    }
+    .mobile_req_btn {
+        display: inline-block;
+    }
+    .logo-menu .logo {
+        width: 43%;
+    }
+    .menu {
+        width: 57%;
+        position: relative;
+        top: 8px;
+    }
+    .ubermenu-skin-black-white-2.ubermenu-responsive-toggle {
+        width: 20%;
+    }
+    .logo-menu .rowonmenu {
+        top: 25px;
+    }
+    #header .request-box #myModalContactinfo .modal-content {
+        height: 450px;
+        overflow-y: scroll;
+    }
+    .portfoliopagenew .bannerhire .bannerheading h1 {
+        font-size: 30px;
+    }
+    .casestudaypage .aboutdetail .listofkey .iconlist ul li {
+        width: 100%;
+    }
+    .testimonialpage .textmocl ul li {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .workpagenew .sliderwork #wslork .item .box .hoverbox .banntext {
+        bottom: 14px;
+    }
+    .footer-box-3 .footer-menu ul li a {
+        font-size: 15px;
+    }
+    .offerpage .offerdatail .title h2 {
+        font-size: 31px;
+    }
+    .offerpage .offerdatail .offertabes .tab-content .content h3 {
+        font-size: 26px;
+        margin-top: 40px;
+    }
+    .offerpage .offerdatail .offertabes .tab-content .content ul li {
+        padding-left: 22px;
+        margin-right: 0;
+    }
+    .offerpage .offerdatail .showcase h3,
+    .offerpage .offerdatail .solutionbg .heading h4 {
+        font-size: 31px;
+    }
+    .offerpage .offerdatail .solutionbg .worklist ul li {
+        width: 100%;
+    }
+    .magento_seo_page .bannerdown .bannericonimg {
+        bottom: 70px;
+    }
+    .magento_seo_page .bannerdown .bannericonimg span {
+        margin-left: 0px;
+    }
+    .magento_seo_page .seo_detail .content h2,
+    .magento_seo_page .video_section .title h3,
+    .magento_seo_page .art_content_box h5,
+    .magento_seo_page .mss_section .heading h5,
+    .magento_seo_page .magento_faq .faq_content h6 {
+        font-size: 24px;
+    }
+    .magento_seo_page .mss_section ul li {
+        width: 100%;
+        border-top: 2px solid #fff;
+        border-right: 0px solid #fff;
+    }
+    .magento_seo_page .mss_section ul li:last-child {
+        width: 100%;
+        border-top: 2px solid #fff;
+        border-right: 0px solid #fff;
+    }
+    .magento_seo_page .magento_faq .faq_content .faques #faq .card {
+        margin-bottom: 0px;
+    }
+    .magento_seo_page .art_content_box .semple_content .pragr button {
+        padding: 10px 30px;
+    }
+    .magento_seo_page .real_client .rightbox .content .last_child {
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .e_learing_page .fratures_section .fear_products_list ul li .left_box,
+    .e_learing_page .fratures_section .fear_products_list ul li .right_box {
+        width: 100%;
+    }
+    .e_learing_page .banner .bannercontent h1 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .e_learing_page .e_learing_detail .content h2,
+    .e_learing_page .e_learing_detail .content_are h3,
+    .e_learing_page .e_learing_detail .wea_content h3,
+    .e_learing_page .fratures_section .hrading h4 {
+        font-size: 24px;
+    }
+    .e_learing_page .fratures_section .fear_products_list ul li .right_box .content h4 {
+        font-size: 18px;
+    }
+    .services-page .bannerhire .banner_content .bannerheading p {
+        font-size: 15px;
+    }
+    .blog-hedding h4,
+    .news-alert .news-hedding h4 {
+        font-size: 24px;
+    }
+    .news-box .news-box-inner .content .post-meta .post-title {
+        font-size: 20px;
+    }
+    .hire-page .hirecontent .contenthr h2,
+    .hire-page .hirecontent .listbox h3,
+    .hire-page .hirecontent .listbox h4,
+    .hire-page .hirecontent .listbox h5 {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:485px) {
+    .dom-box ul li {
+        width: 49.9%;
+    }
+    .services-page .servicescontent .phpserbox ul li {
+        width: 100%;
+        height: auto;
+        margin: 8px 0px;
+    }
+    .hire-page .hirecontent .listbox ul li {
+        width: 87%;
+    }
+    .request-box .modal .modal-dialog {
+        margin-top: 30%;
+    }
+    .casestudaypage .aboutdetail .finalresult .headingb h1::before,
+    .casestudaypage .aboutdetail .finalresult .headingb h1::after {
+        width: 300px;
+    }
+    .casestudaypage .aboutdetail .teamworktimeline .heading h1::before,
+    .casestudaypage .aboutdetail .teamworktimeline .heading h1::after {
+        width: 300px;
+    }
+    .casestudaypage .aboutdetail .brttogether .heading h1::before,
+    .casestudaypage .aboutdetail .brttogether .heading h1::after {
+        width: 300px;
+    }
+    .casestudaypage .aboutdetail .designcompact .heading h1::before,
+    .casestudaypage .aboutdetail .designcompact .heading h1::after {
+        width: 300px;
+    }
+    .casestudaypage .aboutdetail .listofkey .heading h1::before,
+    .casestudaypage .aboutdetail .listofkey .heading h1::after {
+        width: 300px;
+    }
+    .casestudaypage .aboutdetail .usedtechnolog h1::before,
+    .casestudaypage .aboutdetail .usedtechnolog h1::after {
+        width: 300px;
+    }
+    .casestudaypage .aboutdetail .finalresult .fresult h3 {
+        font-size: 22px;
+    }
+    .casestudaypage .aboutdetail .teamworktimeline .projecttimeline .pm1,
+    .casestudaypage .aboutdetail .teamworktimeline .projecttimeline .pm2,
+    .casestudaypage .aboutdetail .teamworktimeline .projecttimeline .pm3,
+    .casestudaypage .aboutdetail .teamworktimeline .projecttimeline .pm4,
+    .casestudaypage .aboutdetail .teamworktimeline .projecttimeline .pm5,
+    .casestudaypage .aboutdetail .teamworktimeline .projecttimeline .pm6 {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .topbar span a {
+        margin-left: 30px;
+        font-size: 16px;
+    }
+    .topbar span a:nth-child(2) {
+        display: block;
+    }
+    .home_new_slider #Home_slider .item .slider_content .container .row .col-md-12.img_md_top .img_box img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .home_new_slider {
+        padding-top: 30%;
+    }
+    .service-li-box .nav-tabs .nav-item a .tab-iocn {
+        font-size: 30px;
+    }
+    .service-li-box .nav-tabs .nav-item a .tab-iocn {
+        position: relative;
+        top: 16px;
+    }
+    .home_new_slider #Home_slider .item .slider_content .content p {
+        font-size: 18px;
+    }
+    .service .hedding h3,
+    .case_studies_heading .hedding h5,
+    .review .hedding h5,
+    .blog .hedding h5,
+    .domain .hedding h5,
+    .footer-box-1 .hedding h5 {
+        font-size: 24px;
+    }
+    .box-1 span {
+        font-size: 24px;
+    }
+    .box-1 p {
+        font-size: 17px;
+    }
+    .service-panel-box .tab-pane .tab-box-1 .nav-tabs a {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .service-panel-box .tab-text-box p {
+        font-size: 16px;
+    }
+    .footer-form .ecom-form-bar-l-wrapper .icon-box label a {
+        font-size: 14px;
+    }
+    p.footer-head {
+        font-size: 20px;
+    }
+    .footer-box-3 .footer-menu ul li a {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:375px) {
+    .menu {
+        width: 37%;
+        top: -6px;
+    }
+    .request-box {
+        width: 89.5%;
+        z-index: 99999999;
+        top: 7px;
+        left: -40px;
+    }
+    .mobile_req_btn {
+        top: -2px;
+    }
+    .ubermenu-skin-black-white-2.ubermenu-responsive-toggle {
+        width: 30%;
+    }
+    .request-box .opbtn {
+        right: -54px;
+    }
+    #header .logo-menu .logo a #Layer_1 {
+        width: 130px;
+    }
+}
+
+@media(max-width:424px) {
+    .services-page .bannerhire {
+        height: 580px;
+    }
+}
+
+
+/* *********************************************Ecom Responsive css End ********************************************* */
