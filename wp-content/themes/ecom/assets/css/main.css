@@ -6,6 +6,7 @@
 @import url("owl.carousel.min.css");
 @import url("animate.css");
 @import url("flation.css");
+
 @font-face {
     font-family: 'FontAwesome';
     src: url('../fonts/fontawesome-webfont3e6e.html?v=4.7.0');
@@ -14,13 +15,13 @@
     font-style: normal
 }
 
- ::-moz-selection {
-    background: #F05223;
+::-moz-selection {
+    background: #ce9f41;
     color: #fff;
 }
 
- ::selection {
-    background: #F05223;
+::selection {
+    background: #ce9f41;
     color: #fff;
 }
 
@@ -180,8 +181,8 @@ button:focus {
 .home_new_slider #Home_slider .item .slider_content .content a {
     color: #fff;
     font-size: 16px;
-    background-color: #F05223;
-    border: 2px solid #F05223;
+    background-color: #ce9f41;
+    border: 2px solid #ce9f41;
     padding: 8px 30px;
     margin-right: 15px;
     margin-top: 10px;
@@ -300,7 +301,7 @@ button:focus {
 
 .hedding h2:after {
     content: "";
-    background: #f05223;
+    background: #ce9f41;
     width: 73px;
     height: 2px;
     position: absolute;
@@ -378,7 +379,7 @@ p.bold-text {
 
 .box-1 span {
     font-size: 30px;
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 500;
 }
 
@@ -438,7 +439,7 @@ p.bold-text {
 
 .service .hedding h3:after {
     content: "";
-    background: #f05223;
+    background: #ce9f41;
     width: 73px;
     height: 2px;
     position: absolute;
@@ -453,7 +454,7 @@ p.bold-text {
 }
 
 .service-li-box {
-    background: #f05223;
+    background: #ce9f41;
     height: auto;
 }
 
@@ -472,12 +473,12 @@ p.bold-text {
 }
 
 .service-li-box .nav-tabs .nav-item:hover a {
-    color: #F05223;
+    color: #ce9f41;
 }
 
 .service-li-box .nav-tabs .nav-item a.active {
     background: #fff;
-    color: #F05223;
+    color: #ce9f41;
 }
 
 .service-li-box .nav-tabs .nav-item a {
@@ -533,11 +534,11 @@ p.bold-text {
 
 .service-panel-box .tab-pane .tab-box-1 .nav-tabs a {
     font-size: 15px;
-    color: #f05223;
+    color: #ce9f41;
     border: 0;
     font-weight: 500;
     padding: 0 15px;
-    border-right: 2px solid #f05223;
+    border-right: 2px solid #ce9f41;
     line-height: 17px;
     border-radius: 0;
 }
@@ -566,7 +567,7 @@ p.bold-text {
 }
 
 .service-panel-box .tab-text-box h4 {
-    color: #f05223;
+    color: #ce9f41;
     font-size: 24px;
     font-weight: 700;
 }
@@ -588,7 +589,7 @@ p.bold-text {
     font-size: 16px;
     color: #fff;
     text-transform: uppercase;
-    background: #f05223;
+    background: #ce9f41;
     display: inline-block;
     text-align: center;
     letter-spacing: 0;
@@ -645,7 +646,7 @@ p.bold-text {
 
 .case_studies_heading .hedding h5::after {
     content: "";
-    background: #f05223;
+    background: #ce9f41;
     width: 73px;
     height: 2px;
     position: absolute;
@@ -668,7 +669,7 @@ p.bold-text {
     left: 0;
     top: 0;
     height: 100%;
-    background-color: #ee5123;
+    background-color: #ce9f41;
 }
 
 .custom_case_study .case_study_slider {
@@ -716,7 +717,7 @@ p.bold-text {
 }
 
 .custom_case_study .case_study_slider #myCarousel .carousel-inner .carousel-item .fill .left_box a {
-    color: #ee5123;
+    color: #ce9f41;
     background-color: #fff;
     padding: 10px 30px;
     font-size: 16px;
@@ -806,7 +807,7 @@ p.bold-text {
     left: -70px;
     right: auto;
     width: 100px;
-    -webkit-transform: rotate( 90deg);
+    -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
@@ -868,7 +869,7 @@ p.bold-text {
 }
 
 .custom_case_study .case_study_slider #Home_case_slide .item .left_box a {
-    color: #ee5123;
+    color: #ce9f41;
     background-color: #fff;
     padding: 10px 30px;
     font-size: 16px;
@@ -934,7 +935,7 @@ p.bold-text {
 }
 
 .review .hedding .revicon {
-    color: #f05223;
+    color: #ce9f41;
     font-size: 23px;
     display: block;
     margin-bottom: 15px;
@@ -1004,7 +1005,7 @@ p.bold-text {
 }
 
 .review-box .review-profile-img {
-    background: #f05223;
+    background: #ce9f41;
     width: 56px;
     height: 56px;
     -webkit-border-radius: 50px;
@@ -1021,7 +1022,7 @@ p.bold-text {
 
 .review-name span.name {
     display: block;
-    color: #f05223;
+    color: #ce9f41;
     line-height: 15px;
 }
 
@@ -1057,7 +1058,7 @@ p.bold-text {
 }
 
 .review-rating ul .svg-inline--fa {
-    color: #f05223;
+    color: #ce9f41;
 }
 
 .review #reviewsour .owl-nav {
@@ -1067,7 +1068,7 @@ p.bold-text {
 .review-box .quote {
     width: 40px;
     height: 40px;
-    background: #f05223;
+    background: #ce9f41;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
@@ -1093,7 +1094,7 @@ p.bold-text {
 }
 
 .review-btn-box .rev-btn span {
-    color: #f05223;
+    color: #ce9f41;
     font-size: 24px;
     font-weight: 600;
 }
@@ -1132,7 +1133,7 @@ p.bold-text {
 .blog .blog-box-1 span,
 .blog .blog-box-2 span {
     font-size: 16px;
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 600;
 }
 
@@ -1228,7 +1229,7 @@ p.bold-text {
 }
 
 .dom-box ul li .domain-iocn span {
-    color: #f05223;
+    color: #ce9f41;
     font-size: 60px;
 }
 
@@ -1250,7 +1251,7 @@ p.bold-text {
 }
 
 .dom-box ul li:hover {
-    background: #1c3853;
+    background: #000000;
 }
 
 .dom-box ul li:hover .domain-text,
@@ -1268,7 +1269,7 @@ p.bold-text {
     font-size: 16px;
     color: #fff;
     text-transform: uppercase;
-    background: #f05223;
+    background: #ce9f41;
     display: inline-block;
     text-align: center;
     letter-spacing: 1px;
@@ -1298,7 +1299,7 @@ p.bold-text {
 .footer-box-1 {
     height: auto;
     width: 100%;
-    background: #1c3853;
+    background: #000000;
     padding-top: 60px;
     padding-bottom: 30px;
 }
@@ -1337,7 +1338,7 @@ p.bold-text {
     padding: 35px 30px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border: 5px solid #f05223;
+    border: 5px solid #ce9f41;
     box-shadow: 0 10px 30px #00000057;
     max-width: 920px;
     margin: 0 auto;
@@ -1355,7 +1356,7 @@ p.bold-text {
     font-size: 16px;
     color: #fff;
     text-transform: uppercase;
-    background: #f05223;
+    background: #ce9f41;
     display: inline-block;
     text-align: center;
     letter-spacing: 1px;
@@ -1370,7 +1371,7 @@ p.bold-text {
 }
 
 .footer-form .e-btn:hover {
-    background: #1c3853;
+    background: #000000;
 }
 
 .footer-form .ecom-form-bar-l-wrapper {
@@ -1395,7 +1396,7 @@ p.bold-text {
 
 .icon-box-cell svg {
     font-size: 35px;
-    color: #f05223;
+    color: #ce9f41;
 }
 
 .footer-form .ecom-form-bar-l-wrapper .icon-box .icon-box-cell {
@@ -1415,7 +1416,7 @@ p.bold-text {
 }
 
 .footer-form .ecom-form-bar-l-wrapper .icon-box label a {
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 500;
 }
 
@@ -1434,7 +1435,7 @@ p.bold-text {
 }
 
 .footer-box-3 .footer-menu {
-    background: #1c3853;
+    background: #000000;
     height: auto;
     width: 100%;
     padding-top: 50px;
@@ -1458,7 +1459,7 @@ p.bold-text {
 }
 
 .footer-box-3 .footer-menu ul li a:hover {
-    color: #f05223;
+    color: #ce9f41;
     text-decoration: underline;
 }
 
@@ -1475,7 +1476,7 @@ p.footer-head::after {
     position: absolute;
     top: 15px;
     margin-left: 5px;
-    background: #f05223;
+    background: #ce9f41;
     height: 2px;
     width: 50px;
 }
@@ -1543,7 +1544,7 @@ p.footer-head::after {
 
 .footer-box-3 .footer-copyright .f-skpy ul li a:hover {
     text-decoration: underline;
-    color: #f05223;
+    color: #ce9f41;
 }
 
 .footer-box-3 .footer-copyright .footer-logo {
@@ -1595,7 +1596,7 @@ p.footer-head::after {
 }
 
 .footer-box-3 .footer-copyright .footer-site-map a:hover {
-    color: #f05223;
+    color: #ce9f41;
     text-decoration: underline;
 }
 
@@ -1676,11 +1677,11 @@ p.footer-head::after {
 }
 
 .footer-box-3 .footer-copyright p a:hover {
-    color: #f05223;
+    color: #ce9f41;
 }
 
 .hr-box {
-    background: #1C3853;
+    background: #000000;
     width: 380px;
     padding: 30px 30px 0px 30px;
     height: auto;
@@ -1737,7 +1738,7 @@ p.footer-head::after {
 
 .hr-email a:hover {
     text-decoration: underline;
-    color: #ee5123;
+    color: #ce9f41;
 }
 
 .footer-form-box {
@@ -1756,7 +1757,7 @@ p.footer-head::after {
 .footer-form-box .after {
     width: 100%;
     height: 2px;
-    background: linear-gradient(to right, #F05223 50%, transparent 50%);
+    background: linear-gradient(to right, #ce9f41 50%, transparent 50%);
     background-color: #8069728f;
     background-size: 200% 100%;
     background-position: 100% 0;
@@ -1826,7 +1827,7 @@ p.footer-head::after {
 }
 
 .footer-form-box #wpcf7-f4517-o1 input[type="submit"] {
-    background: #f05223 !important;
+    background: #ce9f41 !important;
     border: none;
     padding: 10px 0 !important;
     width: 160px;
@@ -1876,7 +1877,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .footer-form-box input:focus~label {
-    color: #F05223;
+    color: #ce9f41;
     font-size: 16px;
 }
 
@@ -2036,7 +2037,7 @@ div.wpcf7-acceptance-missing {
 
 .aboutuspage .pain-points .point li span {
     display: block;
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 800;
     font-size: 50px;
     margin-bottom: 20px;
@@ -2092,7 +2093,7 @@ div.wpcf7-acceptance-missing {
 
 .aboutuspage .mission-box #accordion .card .card-header h5 a:after {
     content: "";
-    background: #f05223;
+    background: #ce9f41;
     width: 60px;
     height: 2px;
     position: absolute;
@@ -2149,7 +2150,7 @@ div.wpcf7-acceptance-missing {
 
 .aboutuspage .mission-box .four-box .iocn span {
     font-size: 64px;
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 500;
 }
 
@@ -2209,7 +2210,7 @@ div.wpcf7-acceptance-missing {
 
 .aboutuspage .business-needs h3::after {
     content: "";
-    background: #f05223;
+    background: #ce9f41;
     width: 73px;
     height: 2px;
     position: absolute;
@@ -2485,7 +2486,7 @@ div.wpcf7-acceptance-missing {
     line-height: 58px;
     color: #fff;
     height: 58px;
-    background: #f05223;
+    background: #ce9f41;
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px;
     border-radius: 35px;
@@ -2530,7 +2531,7 @@ div.wpcf7-acceptance-missing {
     font-size: 40px;
     margin-bottom: 10px;
     line-height: 45px;
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 600;
 }
 
@@ -2624,7 +2625,7 @@ div.wpcf7-acceptance-missing {
 
 .contactpage .achievements .good-firms-box p {
     font-size: 20px !important;
-    color: #f05223;
+    color: #ce9f41;
     line-height: 25px;
     font-weight: 600;
     margin-bottom: 0 !important;
@@ -2635,7 +2636,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .contactpage .box-mail {
-    background: #f05223;
+    background: #ce9f41;
     height: auto;
     width: 100%;
     position: relative;
@@ -2657,7 +2658,7 @@ div.wpcf7-acceptance-missing {
     border-right: 2px solid #e6e6e6;
     padding: 10px 20px;
     font-size: 30px;
-    color: #f05223;
+    color: #ce9f41;
 }
 
 .contactpage .box-mail .inner-box-mail .contact-details {
@@ -2670,7 +2671,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .contactpage .box-mail .inner-box-mail .contact-details a {
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 600;
     font-size: 19px;
 }
@@ -2705,7 +2706,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .contactpage .office-branch .office-branch-box h5 span {
-    background: #f05223;
+    background: #ce9f41;
     font-size: 14px;
     color: #fff;
     padding: 5px;
@@ -2720,7 +2721,7 @@ div.wpcf7-acceptance-missing {
 
 .contactpage .office-branch .office-branch-box p span {
     display: block;
-    color: #f05223;
+    color: #ce9f41;
     font-size: 30px;
     margin-bottom: 8px;
 }
@@ -2768,7 +2769,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .contactpage .office-branch .ecomofficeimg {
-    border: 5px solid #f05223;
+    border: 5px solid #ce9f41;
     width: 100%;
     display: block;
     overflow: hidden;
@@ -2932,7 +2933,7 @@ div.wpcf7-acceptance-missing {
 
 .careerpage .opportunities .hedding h1:after {
     content: "";
-    background: #f05223;
+    background: #ce9f41;
     width: 73px;
     height: 2px;
     position: absolute;
@@ -2957,7 +2958,7 @@ div.wpcf7-acceptance-missing {
 
 .careerpage .together-box h3 {
     font-size: 26px;
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
     margin-bottom: 25px;
 }
@@ -2979,7 +2980,7 @@ div.wpcf7-acceptance-missing {
 
 .careerpage .together-box .exp li svg {
     margin-right: 8px;
-    color: #f05223;
+    color: #ce9f41;
 }
 
 .careerpage .together-box .exp li span {
@@ -3009,7 +3010,7 @@ div.wpcf7-acceptance-missing {
 
 .careerpage .together-box ul li span {
     padding-right: 15px;
-    color: #f05223;
+    color: #ce9f41;
     font-size: 18px;
     display: table-cell;
 }
@@ -3020,7 +3021,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .careerpage .together-box ul li a {
-    background: #f05223;
+    background: #ce9f41;
     display: inline-block;
     color: #fff;
     font-weight: 500;
@@ -3058,7 +3059,7 @@ div.wpcf7-acceptance-missing {
 .careerpage .different .hedding h4:after,
 .careerpage .careers-text .hedding h5:after {
     content: "";
-    background: #f05223;
+    background: #ce9f41;
     width: 73px;
     height: 2px;
     position: absolute;
@@ -3118,7 +3119,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .careerpage .different .hedding p.font-semi-sm .oreng {
-    color: #f05223;
+    color: #ce9f41;
 }
 
 .careerpage .different-box {
@@ -3127,7 +3128,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .careerpage .different-box h5 {
-    color: #f05223;
+    color: #ce9f41;
     font-size: 22px;
     font-weight: 600;
 }
@@ -3183,7 +3184,7 @@ div.wpcf7-acceptance-missing {
     font-weight: 500;
     letter-spacing: 0.1em;
     line-height: 26px;
-    background: #f05223 !important;
+    background: #ce9f41 !important;
     color: #fff !important;
 }
 
@@ -3298,7 +3299,7 @@ div.wpcf7-acceptance-missing {
     text-decoration: none;
     font: 11px/20px "Helvetica Neue", Helvetica, sans-serif;
     font-weight: bold;
-    color: #fff!important;
+    color: #fff !important;
     background: #e60023 url(../img/iocn/download.svg) 3px 50% no-repeat;
     background-size: 14px 14px;
     -webkit-font-smoothing: antialiased;
@@ -3314,7 +3315,7 @@ div.wpcf7-acceptance-missing {
 .blog-detail-text .left-sidebar .social-share .services-li ul li.printes a:hover {
     background: #e60023 url(../img/iocn/download.svg) 3px 50% no-repeat;
     box-shadow: none;
-    color: #fff!important;
+    color: #fff !important;
     background-size: 14px 14px;
     transform: none;
 }
@@ -3397,7 +3398,7 @@ div.wpcf7-acceptance-missing {
     display: block;
     width: 100%;
     margin-bottom: 10px;
-    background: #f05223;
+    background: #ce9f41;
     padding: 7px 20px;
     color: #fff;
     cursor: pointer;
@@ -3530,7 +3531,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .left-sidebar .the-post-foot .post-tags a:hover {
-    color: #f05223;
+    color: #ce9f41;
 }
 
 .left-sidebar .the-post-foot .post-share {
@@ -3560,7 +3561,7 @@ div.wpcf7-acceptance-missing {
     width: auto;
     border-radius: 15px;
     text-align: center;
-    color: #f05223;
+    color: #ce9f41;
 }
 
 .left-sidebar .the-post-foot .post-share ul li.counters a span {
@@ -3587,7 +3588,7 @@ div.wpcf7-acceptance-missing {
 
 .left-sidebar .the-post-foot .post-share ul li.facebook a:hover,
 .left-sidebar .the-post-foot .post-share ul li.twitter a:hover {
-    color: #f05223;
+    color: #ce9f41;
 }
 
 .left-sidebar .the-post-foot .post-share ul li.printes {
@@ -3599,7 +3600,7 @@ div.wpcf7-acceptance-missing {
     text-decoration: none;
     font: 11px/20px "Helvetica Neue", Helvetica, sans-serif;
     font-weight: bold;
-    color: #fff!important;
+    color: #fff !important;
     background: #e60023 url(../img/iocn/download.svg) 3px 50% no-repeat;
     background-size: 14px 14px;
     -webkit-font-smoothing: antialiased;
@@ -3906,7 +3907,7 @@ div.wpcf7-acceptance-missing {
     font-size: 16px;
     color: #fff;
     text-transform: uppercase;
-    background: #f05223;
+    background: #ce9f41;
     display: inline-block;
     text-align: center;
     letter-spacing: 1px;
@@ -4193,7 +4194,7 @@ div.wpcf7-acceptance-missing {
     margin-right: 5px;
     padding: 0 8px;
     color: inherit;
-    background: #f05223;
+    background: #ce9f41;
     color: #fff;
     font-family: Roboto, Arial, sans-serif;
     font-size: 11px;
@@ -4326,7 +4327,7 @@ div.wpcf7-acceptance-missing {
     margin-right: 5px;
     padding: 0 8px;
     color: inherit;
-    background: #f05223;
+    background: #ce9f41;
     color: #fff;
     font-family: Roboto, Arial, sans-serif;
     font-size: 11px;
@@ -4380,7 +4381,7 @@ div.wpcf7-acceptance-missing {
     text-decoration: none;
     font: 11px/20px "Helvetica Neue", Helvetica, sans-serif;
     font-weight: bold;
-    color: #fff!important;
+    color: #fff !important;
     background: #e60023 url(../img/iocn/download.svg) 3px 50% no-repeat;
     background-size: 14px 14px;
     -webkit-font-smoothing: antialiased;
@@ -4554,7 +4555,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .top-ten .top-ten-big .post-author a {
-    color: #f05223;
+    color: #ce9f41;
     font-size: 13px;
     font-weight: 500;
     line-height: 1.5;
@@ -4715,7 +4716,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .sucess-text .stories-li ul li a .post-date {
-    color: #f05223;
+    color: #ce9f41;
 }
 
 .sucess-text .stories-li ul li h2 {
@@ -4738,7 +4739,7 @@ div.wpcf7-acceptance-missing {
     font-size: 16px;
     color: #fff;
     text-transform: uppercase;
-    background: #f05223;
+    background: #ce9f41;
     display: inline-block;
     text-align: center;
     letter-spacing: 1px;
@@ -4835,7 +4836,7 @@ div.wpcf7-acceptance-missing {
 .news-box .news-box-inner .content .post-meta .post-cat a,
 .post-author a,
 .post-by.meta-item span a {
-    color: #f05223;
+    color: #ce9f41;
     font-size: 15px;
     text-transform: uppercase;
 }
@@ -4866,7 +4867,7 @@ div.wpcf7-acceptance-missing {
     font-size: 16px;
     color: #fff;
     text-transform: uppercase;
-    background: #f05223;
+    background: #ce9f41;
     display: inline-block;
     text-align: center;
     letter-spacing: 1px;
@@ -4907,7 +4908,7 @@ div.wpcf7-acceptance-missing {
 
 .testimonialpage .hedding h1:after {
     content: "";
-    background: #f05223;
+    background: #ce9f41;
     width: 73px;
     height: 2px;
     position: absolute;
@@ -4966,19 +4967,19 @@ div.wpcf7-acceptance-missing {
 
 .testimonialpage .textmocl ul li h2 {
     margin-top: 15px;
-    color: #f05223;
+    color: #ce9f41;
     font-size: 24px;
 }
 
 .testimonialpage .textmocl ul li h3 {
-    color: #f05223;
+    color: #ce9f41;
     margin-bottom: 15px;
     display: block;
     font-size: 14px;
 }
 
 .testimonialpage .textmocl ul li h5 {
-    color: #f05223;
+    color: #ce9f41;
     margin-bottom: 15px;
     display: block;
     font-size: 14px;
@@ -5051,12 +5052,12 @@ div.wpcf7-acceptance-missing {
 
 .hire-page .happyclient .clibox span {
     font-size: 54px;
-    color: #f05223;
+    color: #ce9f41;
 }
 
 .hire-page .happyclient .clibox h6 {
     font-size: 24px;
-    color: #f05223;
+    color: #ce9f41;
 }
 
 .hire-page .happyclient .clibox h6 span {
@@ -5078,7 +5079,7 @@ div.wpcf7-acceptance-missing {
 .hire-page .hirecontent .listbox h5 {
     font-size: 30px;
     font-weight: 500;
-    color: #f05223;
+    color: #ce9f41;
     text-transform: capitalize;
 }
 
@@ -5123,11 +5124,11 @@ div.wpcf7-acceptance-missing {
     position: relative;
     display: inline-block;
     left: -10px;
-    color: #f05223;
+    color: #ce9f41;
 }
 
 .hire-page .hirecontent .listbox ul li:hover {
-    color: #f05223;
+    color: #ce9f41;
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
     -moz-transition: 0.5s ease-in-out;
@@ -5159,11 +5160,11 @@ div.wpcf7-acceptance-missing {
 
 .hire-page .hirecontent .servicexper ul li .svg-inline--fa {
     position: relative;
-    color: #f05223;
+    color: #ce9f41;
 }
 
 .hire-page .hirecontent .servicexper ul li:hover {
-    color: #f05223;
+    color: #ce9f41;
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
     -moz-transition: 0.5s ease-in-out;
@@ -5175,7 +5176,7 @@ div.wpcf7-acceptance-missing {
     display: block;
     margin-bottom: 30px;
     font-size: 54px;
-    color: #f05223;
+    color: #ce9f41;
     transition: .5s ease-in-out;
     -webkit-transition: .5s ease-in-out;
     -moz-transition: .5s ease-in-out;
@@ -5187,7 +5188,7 @@ div.wpcf7-acceptance-missing {
 /* .hire-page .hirecontent .servicexper ul li h3 {
     font-size: 18px;
     font-weight: 500;
-    color: #f05223;
+    color: #ce9f41;
     margin-bottom: 0px;
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
@@ -5227,7 +5228,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .hire-page .hirecontent .servicexper_new ul li:hover {
-    color: #f05223;
+    color: #ce9f41;
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
     -moz-transition: 0.5s ease-in-out;
@@ -5279,7 +5280,7 @@ div.wpcf7-acceptance-missing {
 .services-page .bannerhire .banner_content a {
     color: #f7f7f7;
     font-size: 15px;
-    background: #f05223;
+    background: #ce9f41;
     padding: 15px 40px;
     margin-right: 10px;
     text-transform: uppercase;
@@ -5321,7 +5322,7 @@ div.wpcf7-acceptance-missing {
 
 .services-page .servicescontent .listbox h2 {
     font-size: 30px;
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 500;
     margin-bottom: 30px;
     text-align: center;
@@ -5383,7 +5384,7 @@ div.wpcf7-acceptance-missing {
 
 .services-page .servicescontent .listbox ul li span {
     font-size: 64px;
-    color: #f05223;
+    color: #ce9f41;
     transition: .5s ease-in-out;
     -webkit-transition: .5s ease-in-out;
     -moz-transition: .5s ease-in-out;
@@ -5395,7 +5396,7 @@ div.wpcf7-acceptance-missing {
 
 .services-page .servicescontent .listbox ul li h3 {
     font-size: 16px;
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 500;
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
@@ -5417,7 +5418,7 @@ div.wpcf7-acceptance-missing {
 
 .services-page .servicescontent .odprocess .heading h3 {
     font-size: 34px;
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 500;
     margin-bottom: 30px;
     text-align: center;
@@ -5466,7 +5467,7 @@ div.wpcf7-acceptance-missing {
     position: absolute;
     top: -8px;
     left: -8px;
-    background: #f05223;
+    background: #ce9f41;
     color: #fff;
     line-height: 25px;
     width: 25px;
@@ -5482,7 +5483,7 @@ div.wpcf7-acceptance-missing {
 .services-page .servicescontent .odprocess .devprobox h3 {
     font-size: 16px;
     font-weight: 600;
-    color: #f05223;
+    color: #ce9f41;
     margin-bottom: 15px;
     display: inline-block;
     width: 55%;
@@ -5592,7 +5593,7 @@ div.wpcf7-acceptance-missing {
 
 .services-page .servicescontent .phpserbox h3 {
     font-size: 34px;
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 500;
     margin-bottom: 30px;
     text-align: center;
@@ -5668,7 +5669,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .services-page .servicescontent .phpserbox ul li h3 a {
-    color: #f05223;
+    color: #ce9f41;
 }
 
 .services-page .servicescontent .phpserbox ul li:hover h3 a {
@@ -5701,7 +5702,7 @@ div.wpcf7-acceptance-missing {
 
 .services-page .servicescontent .keybenifet h4 {
     font-size: 28px;
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 500;
     margin-bottom: 30px;
     text-transform: capitalize;
@@ -5739,7 +5740,7 @@ div.wpcf7-acceptance-missing {
 
 .services-page .servicescontent .faqbackclo .faqcontent .heading h5 {
     font-size: 34px;
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 500;
     margin-bottom: 30px;
     text-align: center;
@@ -5753,7 +5754,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .services-page .servicescontent .faqbackclo .faqcontent .card .card-header {
-    background: #f05223;
+    background: #ce9f41;
     border: none;
 }
 
@@ -5903,7 +5904,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .portfoliopagenew .bannerhire .bannerheading a:hover {
-    background-color: #f05223;
+    background-color: #ce9f41;
 }
 
 .portfoliopagenew .bannerhire .requestform {
@@ -6045,7 +6046,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .portfoliopagenew .aboutdetail .content h2 strong {
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
 }
 
@@ -6069,7 +6070,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .portfoliopagenew .aboutdetail .showcase h3 strong {
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
 }
 
@@ -6190,7 +6191,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .portfoliopagenew .aboutdetail .ourservices .heading h4 strong {
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
 }
 
@@ -6290,7 +6291,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .casestudaypage .aboutdetail .content h1 strong {
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
 }
 
@@ -6381,7 +6382,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .casestudaypage .aboutdetail .usedtechnolog h2 strong {
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
 }
 
@@ -6488,7 +6489,7 @@ div.wpcf7-acceptance-missing {
 
 .casestudaypage .aboutdetail .protoimag span img {
     width: 100%;
-    border: 3px solid #f05223;
+    border: 3px solid #ce9f41;
     transform: scale(1);
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -6524,7 +6525,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .casestudaypage .aboutdetail .listofkey .heading h3 strong {
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
 }
 
@@ -6586,7 +6587,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .casestudaypage .aboutdetail .listofkey .iconlist ul li span {
-    color: #f05223;
+    color: #ce9f41;
     font-size: 18px;
     display: block;
     margin-top: 15px;
@@ -6625,7 +6626,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .casestudaypage .aboutdetail .designcompact .heading h4 strong {
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
 }
 
@@ -6673,7 +6674,7 @@ div.wpcf7-acceptance-missing {
 
 .casestudaypage .aboutdetail .designcompact .slider #casestudaylist .item .box img {
     width: 100%;
-    border: 3px solid #f05223;
+    border: 3px solid #ce9f41;
     transform: scale(1);
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -6709,7 +6710,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .casestudaypage .aboutdetail .brttogether .heading h1 strong {
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
 }
 
@@ -6753,7 +6754,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .casestudaypage .aboutdetail .brttogether .heading6 h4 strong {
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
 }
 
@@ -6795,7 +6796,7 @@ div.wpcf7-acceptance-missing {
 
 .casestudaypage .aboutdetail .brttogether .box img {
     width: 100%;
-    border: 3px solid #f05223;
+    border: 3px solid #ce9f41;
     transform: scale(1);
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -6831,7 +6832,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .casestudaypage .aboutdetail .teamworktimeline .heading h5 strong {
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
 }
 
@@ -7027,7 +7028,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .casestudaypage .aboutdetail .finalresult .headinga h5 strong {
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
 }
 
@@ -7067,7 +7068,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .casestudaypage .aboutdetail .finalresult .headingb h5 strong {
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
 }
 
@@ -7126,7 +7127,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .casestudaypage .aboutdetail .finalresult .portimg img {
-    border: 3px solid #f05223;
+    border: 3px solid #ce9f41;
 }
 
 .casestudaypage .aboutdetail .finalresult .headingb {
@@ -7154,7 +7155,7 @@ div.wpcf7-acceptance-missing {
     position: relative;
     width: 100%;
     margin-bottom: 30px;
-    border: 4px solid #f05223;
+    border: 4px solid #ce9f41;
 }
 
 .maincasepage .casestudylist .casebox img {
@@ -7238,7 +7239,7 @@ div.wpcf7-acceptance-missing {
 
 .freeauditpage .freedetail h2 {
     font-size: 30px;
-    color: #f05223;
+    color: #ce9f41;
     margin-bottom: 20px;
     font-weight: 500;
 }
@@ -7300,7 +7301,7 @@ div.wpcf7-acceptance-missing {
     width: 100%;
     height: 45px;
     padding: 0 20px;
-    border: 1px solid #1c3853;
+    border: 1px solid #000000;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -7320,7 +7321,7 @@ div.wpcf7-acceptance-missing {
     width: 100%;
     height: 45px;
     padding: 0 20px;
-    border: 1px solid #1c3853;
+    border: 1px solid #000000;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -7427,7 +7428,7 @@ div.wpcf7-acceptance-missing {
 
 .workpagenew .sliderwork #wslork .item .box .hoverbox .banntext span {
     color: #fff;
-    background: #1c3853;
+    background: #000000;
     padding: 7px 30px;
     text-transform: uppercase;
     font-size: 14px;
@@ -7442,7 +7443,7 @@ div.wpcf7-acceptance-missing {
     font-size: 18px;
     text-transform: uppercase;
     color: #fff;
-    background: #f05223;
+    background: #ce9f41;
     padding: 11px 40px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -7452,7 +7453,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .workpagenew .sliderwork #wslork .item .box .hoverbox .banntext h3 a:hover {
-    background-color: #1c3853;
+    background-color: #000000;
 }
 
 .workpagenew .allworkport {
@@ -7518,7 +7519,7 @@ div.wpcf7-acceptance-missing {
     font-size: 16px;
     text-transform: uppercase;
     color: #fff;
-    background: #f05223;
+    background: #ce9f41;
     padding: 11px 40px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -7528,12 +7529,12 @@ div.wpcf7-acceptance-missing {
 }
 
 .workpagenew .allworkport .worklist ul li .wbox .hcontent a:hover {
-    background-color: #1c3853;
+    background-color: #000000;
 }
 
 .workpagenew .allworkport .worklist ul li .wbox .categ {
     color: #fff;
-    background: #f05223;
+    background: #ce9f41;
     padding: 1px 12px;
     text-transform: uppercase;
     font-size: 14px;
@@ -7549,7 +7550,7 @@ div.wpcf7-acceptance-missing {
 
 .pagenotfound {
     margin-top: -79px;
-    background: #f05223;
+    background: #ce9f41;
     padding: 150px 30px;
 }
 
@@ -7674,7 +7675,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .offerpage .bannerhire .requestform form .form-group .wpcf7-form-control option {
-    background: #f05223;
+    background: #ce9f41;
 }
 
 .offerpage .bannerhire .requestform form .form-group .wpcf7-form-control:focus,
@@ -7748,7 +7749,7 @@ div.wpcf7-acceptance-missing {
     -moz-transition: 0.5s ease-in-out;
     -ms-transition: 0.5s ease-in-out;
     -o-transition: 0.5s ease-in-out;
-    background: #f05223;
+    background: #ce9f41;
     color: #fff;
 }
 
@@ -7758,7 +7759,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .offerpage .offerdatail .title h2 {
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
     font-size: 50px;
     margin-bottom: 60px;
@@ -7783,14 +7784,14 @@ div.wpcf7-acceptance-missing {
     border: none;
     border-radius: 0;
     position: relative;
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
     padding: 10px 40px;
     font-size: 18px;
 }
 
 .offerpage .offerdatail .offertabes .nav-tabs .nav-item .nav-link.active {
-    background: #f05223;
+    background: #ce9f41;
     color: #fff;
 }
 
@@ -7801,7 +7802,7 @@ div.wpcf7-acceptance-missing {
 .offerpage .offerdatail .offertabes .tab-content .content h3 {
     position: relative;
     font-size: 28px;
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
     margin-bottom: 40px;
 }
@@ -7839,7 +7840,7 @@ div.wpcf7-acceptance-missing {
 
 .offerpage .offerdatail .showcase h3 {
     margin-top: 15px;
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
     font-size: 50px;
     margin-bottom: 15px;
@@ -7879,7 +7880,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .offerpage .offerdatail .solutionbg .heading h4 {
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 700;
     font-size: 50px;
     margin-bottom: 15px;
@@ -7944,7 +7945,7 @@ div.wpcf7-acceptance-missing {
     font-size: 16px;
     text-transform: uppercase;
     color: #fff;
-    background: #f05223;
+    background: #ce9f41;
     padding: 11px 40px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -7954,12 +7955,12 @@ div.wpcf7-acceptance-missing {
 }
 
 .offerpage .offerdatail .solutionbg .worklist ul li .wbox .hcontent a:hover {
-    background-color: #1c3853;
+    background-color: #000000;
 }
 
 .offerpage .offerdatail .solutionbg .worklist ul li .wbox .categ {
     color: #fff;
-    background: #f05223;
+    background: #ce9f41;
     padding: 1px 12px;
     text-transform: uppercase;
     font-size: 14px;
@@ -8092,14 +8093,17 @@ div.wpcf7-acceptance-missing {
         box-shadow: 0 0 0 0 #e14504;
         border: 1px solid #e14504;
     }
+
     40% {
         box-shadow: 0 0 0 5px #e14504;
         border: 1px solid #e14504;
     }
+
     80% {
         box-shadow: 0 0 0 5px #e14504;
         border: 1px solid #e14504;
     }
+
     100% {
         box-shadow: 0 0 5px #e14504;
         border: 1px solid #e14504;
@@ -8787,7 +8791,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .modal_popups .slider_pop .modal-header .close {
-    background: #f05223;
+    background: #ce9f41;
     line-height: 1;
     top: -10px;
     right: -10px;
@@ -9491,7 +9495,7 @@ div.wpcf7-acceptance-missing {
 
 .shoppage .productsvi .protitle .sortbar {
     margin-top: 35px;
-    background: #f05223;
+    background: #ce9f41;
     padding: 10px 20px;
     margin-bottom: 20px;
 }
@@ -9512,7 +9516,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .shoppage .productsvi .protitle .sortbar .dropdownlist select {
-    background: #f05223;
+    background: #ce9f41;
     color: #fff;
     border: none;
     border-bottom: 2px solid #fff;
@@ -9569,7 +9573,7 @@ div.wpcf7-acceptance-missing {
     position: absolute;
     left: 0;
     top: 10px;
-    background: #f05223;
+    background: #ce9f41;
     padding: 7px 22px 7px 10px;
     color: #fff;
     text-transform: capitalize;
@@ -9595,7 +9599,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .shoppage .productsvi .productlist .productsbox .producttitle h3 a {
-    color: #f05223;
+    color: #ce9f41;
 }
 
 .shoppage .productsvi .productlist .productsbox .producttitle p {
@@ -9607,7 +9611,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .shoppage .productsvi .productlist .productsbox .producttitle .reating {
-    color: #f05223;
+    color: #ce9f41;
     font-size: 14px;
     text-align: center;
     display: block;
@@ -9619,7 +9623,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .shoppage .productsvi .productlist .productsbox .producttitle .productpricebtn .price {
-    color: #f05223;
+    color: #ce9f41;
     font-size: 20px;
     font-weight: 600;
     width: 48%;
@@ -9634,7 +9638,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .shoppage .productsvi .productlist .productsbox .producttitle .productpricebtn .h-button {
-    background: #f05223;
+    background: #ce9f41;
     padding: 6px;
     width: 180px;
     text-align: center;
@@ -9760,7 +9764,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .shopdetailpage .productsdetail .productschgbtn .btn1 {
-    background: #f05223;
+    background: #ce9f41;
     border-radius: 30px 0px 0px 30px;
     -webkit-border-radius: 30px 0px 0px 30px;
     -moz-border-radius: 30px 0px 0px 30px;
@@ -9782,7 +9786,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .shopdetailpage .productsdetail .productschgbtn .btn2:hover {
-    background: #f05223;
+    background: #ce9f41;
 }
 
 .shopdetailpage .productsdetail .productschgbtn .mlogo {
@@ -9806,13 +9810,13 @@ div.wpcf7-acceptance-missing {
 }
 
 .shopdetailpage .productsdetail .prodoutcontent .reating {
-    color: #f05223;
+    color: #ce9f41;
     font-size: 13px;
     margin-right: 20px;
 }
 
 .shopdetailpage .productsdetail .prodoutcontent a {
-    color: #f05223;
+    color: #ce9f41;
     font-weight: 500;
 }
 
@@ -9995,7 +9999,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .shopdetailpage .productsdetail .prodoutcontent form .addbtn .h-button {
-    background: #f05223;
+    background: #ce9f41;
     padding: 0;
     width: 100%;
     text-align: center;
@@ -10142,7 +10146,7 @@ div.wpcf7-acceptance-missing {
 .shopdetailpage .productsdetail .tabsystem .tabs .tab-button-outer #tab-button li a:hover,
 .shopdetailpage .productsdetail .tabsystem .tabs .tab-button-outer #tab-button .is-active a {
     border-bottom-color: transparent;
-    background: #f05223;
+    background: #ce9f41;
 }
 
 .shopdetailpage .productsdetail .tabsystem .tabs .tab-contents .tabody p {
@@ -10159,7 +10163,7 @@ div.wpcf7-acceptance-missing {
 .shopdetailpage .productsdetail .tabsystem .tabs .tab-contents .tabody .tablebox .table thead tr th h5 {
     font-size: 24px;
     font-weight: 600;
-    color: #f05223;
+    color: #ce9f41;
     margin-bottom: 0;
     padding: 0;
 }
@@ -10259,7 +10263,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .shopdetailpage .productsdetail .tabsystem .tabs .tab-contents .tabody .banifit span a:hover {
-    background: #ee5123;
+    background: #ce9f41;
 }
 
 

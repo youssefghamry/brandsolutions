@@ -86,7 +86,7 @@ div.enlighter>div>div{
 
 /*Careers Page*/
 .together-box a{
-	background: #f05223;
+	background: #ce9f41;
     display: inline-block;
     color: #fff;
     font-weight: 500;
@@ -144,7 +144,7 @@ p.mailpoet_validate_error{
     font-weight: 500;
     letter-spacing: 0.1em;
     line-height: 26px;
-    background: #f05223 !important;
+    background: #ce9f41 !important;
     color: #fff !important;
 }
 
@@ -263,7 +263,7 @@ div.review-box .review-profile-img img{
 }
 .provide h2:after {
     content: "";
-    background: #f05223;
+    background: #ce9f41;
     width: 73px;
     height: 2px;
     position: absolute;
@@ -312,3 +312,8 @@ div.review-box .review-profile-img img{
 }*/
 
 /*Archive Page*/
+
+.logo-menu .logo {
+    width: 10% !important;
+  
+}
